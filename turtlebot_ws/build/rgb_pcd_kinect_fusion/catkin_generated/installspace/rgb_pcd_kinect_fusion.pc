@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/turtlebot_ws/install
+
+Name: rgb_pcd_kinect_fusion
+Description: Description of rgb_pcd_kinect_fusion
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/elliottwhite/turtlebot2_wss/turtlebot_ws/install/lib 
+Requires: 

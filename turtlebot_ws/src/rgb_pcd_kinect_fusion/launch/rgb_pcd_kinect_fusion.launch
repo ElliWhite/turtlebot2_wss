@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="rgb_pcd_kinect_fusion" type="rgb_pcd_kinect_fusion" name="rgb_pcd_kinect_fusion"  output="screen">
+		<param name="image_topic" value="/rgb/image_rect_color" />
+		<param name="pcl_topic" value="/depth/pcd"/>
+		<param name="pcd_color_topic" value="/depth/pcd_colored" />
+		<param name="pcd_rect_topic" value="/depth/pcd_rect"/>
+		<param name="far_clip" type="double" value="3.5" />
+	</node>
+</launch>

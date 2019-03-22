@@ -1,0 +1,2 @@
+turtlebot_rviz_launchers
+-DCATKIN_DEVEL_PREFIX=/home/elliottwhite/turtlebot2_wss/turtlebot_interaction/devel -DCMAKE_INSTALL_PREFIX=/home/elliottwhite/turtlebot2_wss/turtlebot_interaction/install -G Unix Makefiles
