@@ -1,0 +1,35 @@
+[terminal 1]
+roscore
+
+
+[terminal 2]
+cd ~/turtlebot_wss
+source source_all.bash
+roslaunch vrep_turtlebot_simulation vrep_turtlebot_rviz_launch.launch 
+
+
+[terminal 3]
+cd ~/V-REP (tab)
+./vrep.sh
+
+
+[terminal 4]
+cd ~/turtlebot_wss
+source source_all.bash
+roslaunch turtlebot_teleop_keyboard keyboard_teleop_diff_drive.launch 
+
+
+[terminal 5]
+cd ~/turtlebot_wss
+source source_all.bash
+roslaunch rgb_pcd_kinect_fusion rgb_pcd_kinect_fusion.launch 
+
+
+[terminal 6]
+cd ~/turtlebot_wss
+source source_all.bash
+roslaunch turtlebot_launchers turtlebot_octomap_mapping.launch 
+
+
+Press play in V-REP
+

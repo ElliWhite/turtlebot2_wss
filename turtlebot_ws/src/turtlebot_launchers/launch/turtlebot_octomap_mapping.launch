@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf­8"?>
+<!-- xml version="1.0" encoding="utf­8"?> -->
 <launch>
+
 	<node name="mapping" pkg="octomap_server" type="octomap_server_node" respawn="false" output="screen">
 		<param name = "base_frame_id" value = "/kinect_depth"/>
 		<param name = "resolution" value = "0.075"/>
