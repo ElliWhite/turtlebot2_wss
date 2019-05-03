@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target pointmatcher_ros[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pointmatcher_ros.dir/src/point_cloud.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pointmatcher_ros.dir/src/transform.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libpointmatcher_ros.so[0m
+[100%] Built target pointmatcher_ros

@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: point_cloud_io
+Description: Description of point_cloud_io
+Version: 0.1.0
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/point_cloud_io/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib 
+Requires: pcl_ros roscpp sensor_msgs

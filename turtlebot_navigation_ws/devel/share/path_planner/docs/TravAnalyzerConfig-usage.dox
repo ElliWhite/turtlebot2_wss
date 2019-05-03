@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="path_planner" pkg="path_planner" type="path_planner">
+  <param name="leaf_size" type="double" value="0.075" />
+  <param name="density_radius_multiplier" type="double" value="5.0" />
+</node>
+\endverbatim
+

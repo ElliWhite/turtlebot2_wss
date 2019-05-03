@@ -1,0 +1,62 @@
+Cloning into 'gtsam_src'...
+Note: checking out '687ae3d2511b9c296af08ec2f2e717b0627a8d68'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 687ae3d... Merged in fix/matlab_wrapper_scalar_references (pull request #287)
+Ignoring Boost restriction on optional lvalue assignment from rvalues
+CMake Warning at CMakeLists.txt:519 (message):
+  MKL was not found - this is ok, but note that MKL yields better
+  performance.  Set GTSAM_WITH_EIGEN_MKL to 'Off' to disable this warning.
+
+
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:[m[K In function ‘[01m[Kccolamd2[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:1563:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcs[m[K’ set but not used [-Wunused-but-set-variable]
+     Int cs ;
+[01;32m[K         ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/cholesky.cpp:[m[K In function ‘[01m[Kbool gtsam::choleskyPartial(gtsam::Matrix&, std::size_t, std::size_t)[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/cholesky.cpp:134:16:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (nFrontal < n)
+[01;32m[K                ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/cholesky.cpp:140:16:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (nFrontal < n)
+[01;32m[K                ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/examples/SolverComparer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/examples/SolverComparer.cpp:209:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<tbb::task_scheduler_init> init;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/Testable.h:36[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/slam/BetweenFactor.h:20[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/examples/SolverComparer.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:359:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/OptionalJacobian.h:22[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/Matrix.h:25[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/Manifold.h:22[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/geometry/BearingRange.h:21[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/geometry/Pose2.h:23[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam_unstable/examples/SmartRangeExample_plaza1.cpp:20[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:[m[K In member function ‘[01m[Kgtsam::Point2 gtsam::SmartRangeFactor::triangulate(const gtsam::Values&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:192:66:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& best_circle +16)[m[K’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data) {}
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam_unstable/examples/SmartRangeExample_plaza1.cpp:43:0[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam_unstable/slam/SmartRangeFactor.h:99:30:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& best_circle +16)[m[K’ was declared here
+     boost::optional<Circle2> best_circle;
+[01;32m[K                              ^[m[K
+make[3]: warning: -jN forced in submake: disabling jobserver mode.

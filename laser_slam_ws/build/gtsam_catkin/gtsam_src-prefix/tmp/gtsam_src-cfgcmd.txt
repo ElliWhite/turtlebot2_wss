@@ -1,0 +1,1 @@
+cmd='cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel;-DGTSAM_USE_SYSTEM_EIGEN=ON;-DCMAKE_BUILD_TYPE=Release;../gtsam_src'

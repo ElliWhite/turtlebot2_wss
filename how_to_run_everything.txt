@@ -11,25 +11,47 @@ roslaunch vrep_turtlebot_simulation vrep_turtlebot_rviz_launch.launch
 [terminal 3]
 cd ~/V-REP (tab)
 ./vrep.sh
+Press play in V-REP
 
 
 [terminal 4]
 cd ~/turtlebot_wss
 source source_all.bash
-roslaunch turtlebot_teleop_keyboard keyboard_teleop_diff_drive.launch 
+roslaunch rgb_pcd_kinect_fusion rgb_pcd_kinect_fusion.launch 
 
 
 [terminal 5]
 cd ~/turtlebot_wss
 source source_all.bash
-roslaunch rgb_pcd_kinect_fusion rgb_pcd_kinect_fusion.launch 
+roslaunch turtlebot_launchers turtlebot_octomap_mapping.launch 
 
 
 [terminal 6]
 cd ~/turtlebot_wss
 source source_all.bash
-roslaunch turtlebot_launchers turtlebot_octomap_mapping.launch 
+roslaunch turtlebot_launchers turtlebot_normal_estimation.launch 
 
 
-Press play in V-REP
+[terminal 7]
+cd ~/turtlebot_wss
+source source_all.bash
+roslaunch turtlebot_launchers turtlebot_traversability_analysis.launch 
 
+
+[terminal 8]
+cd ~/turtlebot_wss
+source source_all.bash
+roslaunch turtlebot_launchers turtlebot_path_planner.launch
+
+
+[terminal 9]
+cd ~/turtlebot_wss
+source source_all.bash
+<!-- roslaunch turtlebot_teleop_keyboard keyboard_teleop_diff_drive.launch -->
+roslaunch turtlebot_teleop_keyboard keyboard_teleop_diff_drive_mux.launch 
+
+
+[optional]
+[terminal 10]
+cd ~/turtlebot_wss 
+rosrun rqt_reconfigure rqt_reconfigure

@@ -1,0 +1,6 @@
+Ignoring Boost restriction on optional lvalue assignment from rvalues
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/CMakeLists.txt:460 (message):
+  MKL was not found - this is ok, but note that MKL yields better
+  performance.  Set GTSAM_WITH_EIGEN_MKL to 'Off' to disable this warning.
+
+

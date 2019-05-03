@@ -1,0 +1,20 @@
+\subsubsection usage Usage
+\verbatim
+<node name="path_planner" pkg="path_planner" type="path_planner">
+  <param name="laser_frame" type="str" value="/laser" />
+  <param name="global_frame" type="str" value="/map" />
+  <param name="colorize_points" type="bool" value="True" />
+  <param name="num_subdivisions" type="int" value="50" />
+  <param name="radius_near" type="double" value="5.0" />
+  <param name="leaf_size" type="double" value="0.02" />
+  <param name="outlier_removal" type="int" value="2" />
+  <param name="mean_k" type="int" value="50" />
+  <param name="stddev_mul_thresh" type="double" value="1.0" />
+  <param name="radius_search" type="double" value="0.1" />
+  <param name="min_neighbors" type="int" value="3" />
+  <param name="ransac_distance_threshold" type="double" value="0.05" />
+  <param name="ransac_min_inliers" type="int" value="4" />
+  <param name="bucket_volume_model_type" type="int" value="2" />
+</node>
+\endverbatim
+

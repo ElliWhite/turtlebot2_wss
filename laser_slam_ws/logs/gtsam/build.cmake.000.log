@@ -1,0 +1,116 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The CXX compiler identification is GNU 5.4.0
+[36m--[0m The C compiler identification is GNU 5.4.0
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m GTSAM_SOURCE_ROOT_DIR: [/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM]
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Boost version: 1.58.0
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   serialization
+[36m--[0m   system
+[36m--[0m   filesystem
+[36m--[0m   thread
+[36m--[0m   program_options
+[36m--[0m   date_time
+[36m--[0m   regex
+[36m--[0m   timer
+[36m--[0m   chrono
+[36m--[0m   atomic
+Ignoring Boost restriction on optional lvalue assignment from rvalues
+[36m--[0m Found Intel TBB
+[36m--[0m Could NOT find MKL (missing:  MKL_INCLUDE_DIR MKL_LIBRARIES)
+[36m--[0m Try OpenMP C flag = [-fopenmp]
+[36m--[0m Performing Test OpenMP_FLAG_DETECTED
+[36m--[0m Performing Test OpenMP_FLAG_DETECTED - Success
+[36m--[0m Try OpenMP CXX flag = [-fopenmp]
+[36m--[0m Performing Test OpenMP_FLAG_DETECTED
+[36m--[0m Performing Test OpenMP_FLAG_DETECTED - Success
+[36m--[0m Found OpenMP: -fopenmp
+[36m--[0m Building 3rdparty
+[36m--[0m Looking for execinfo.h
+[36m--[0m Looking for execinfo.h - found
+[36m--[0m Looking for getline
+[36m--[0m Looking for getline - found
+[36m--[0m checking for thread-local storage - found
+[36m--[0m Could NOT find GeographicLib (missing:  GeographicLib_LIBRARY_DIRS GeographicLib_LIBRARIES GeographicLib_INCLUDE_DIRS)
+[36m--[0m Building base
+[36m--[0m Building geometry
+[36m--[0m Building inference
+[36m--[0m Building symbolic
+[36m--[0m Building discrete
+[36m--[0m Building linear
+[36m--[0m Building nonlinear
+[36m--[0m Building slam
+[36m--[0m Building navigation
+[36m--[0m GTSAM Version: 4.0.0
+[36m--[0m Install prefix: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+[36m--[0m Building GTSAM - shared
+[36m--[0m Building base_unstable
+[36m--[0m Building geometry_unstable
+[36m--[0m Building linear_unstable
+[36m--[0m Building discrete_unstable
+[36m--[0m Building dynamics_unstable
+[36m--[0m Building nonlinear_unstable
+[36m--[0m Building slam_unstable
+[36m--[0m GTSAM_UNSTABLE Version: 4.0.0
+[36m--[0m Install prefix: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+[36m--[0m Building GTSAM_UNSTABLE - shared
+[36m--[0m Wrote /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/GTSAMConfig.cmake
+[36m--[0m Found Doxygen: /usr/bin/doxygen (found version "1.8.11")
+[36m--[0m ===============================================================
+[36m--[0m ================  Configuration Options  ======================
+[36m--[0m Build flags
+[36m--[0m   Build Tests                    : Enabled
+[36m--[0m   Build examples with 'make all' : Enabled
+[36m--[0m   Build timing scripts with 'make all': Disabled
+[36m--[0m   Build Docs                     : Enabled
+[36m--[0m   Build static GTSAM library instead of shared: Disabled
+[36m--[0m   Put build type in library name : Enabled
+[36m--[0m   Build libgtsam_unstable        : Enabled
+[36m--[0m   Build type                     : Release
+[36m--[0m   C compilation flags            :  -O3 -Wall -DNDEBUG -Wall
+[36m--[0m   C++ compilation flags          :  -O3 -Wall -DNDEBUG -Wall
+[36m--[0m   Use System Eigen               : No
+[36m--[0m   Use Intel TBB                  : Yes
+[36m--[0m   Eigen will use MKL             : MKL not found
+[36m--[0m   Eigen will use MKL and OpenMP  : OpenMP found but MKL not found
+[36m--[0m   Default allocator              : TBB
+[36m--[0m Packaging flags
+[36m--[0m   CPack Source Generator         : TGZ
+[36m--[0m   CPack Generator                : TGZ
+[36m--[0m GTSAM flags
+[36m--[0m   Quaternions as default Rot3    : Disabled
+[36m--[0m   Runtime consistency checking   : Disabled
+[36m--[0m   Rot3 retract is full ExpMap    : Disabled
+[36m--[0m   Pose3 retract is full ExpMap   : Disabled
+[36m--[0m MATLAB toolbox flags
+[36m--[0m   Install matlab toolbox         : Disabled
+[36m--[0m   Build Wrap                     : Enabled
+[36m--[0m ===============================================================
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/CMakeLists.txt:460 (message):
+  MKL was not found - this is ok, but note that MKL yields better
+  performance.  Set GTSAM_WITH_EIGEN_MKL to 'Off' to disable this warning.
+
+
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam

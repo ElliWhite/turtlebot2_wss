@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target ethzasl_gridmap_2d[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ethzasl_gridmap_2d.dir/src/grid-map.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libethzasl_gridmap_2d.so[0m
+[100%] Built target ethzasl_gridmap_2d

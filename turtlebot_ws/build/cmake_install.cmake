@@ -119,6 +119,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/gtest/cmake_install.cmake")
   include("/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/point_cloud_filter/cmake_install.cmake")
   include("/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/rgb_pcd_kinect_fusion/cmake_install.cmake")
+  include("/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/turtlebot_launchers/cmake_install.cmake")
   include("/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/turtlebot_teleop_keyboard/cmake_install.cmake")
   include("/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/turtlebot_description/cmake_install.cmake")
 

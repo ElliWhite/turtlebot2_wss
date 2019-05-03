@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/install
+
+Name: ethzasl_gridmap_2d
+Description: Description of ethzasl_gridmap_2d
+Version: 0.9.6
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/install/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/install/lib -lethzasl_gridmap_2d
+Requires: roscpp nav_msgs

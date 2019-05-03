@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: catkin_simple
+Description: Description of catkin_simple
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib 
+Requires: catkin

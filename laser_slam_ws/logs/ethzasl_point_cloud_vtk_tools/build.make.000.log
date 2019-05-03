@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target pointCloudToVtk[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/pointCloudToVtk.dir/src/pointCloudToVtk.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_point_cloud_vtk_tools/pointCloudToVtk[0m
+[ 50%] Built target pointCloudToVtk
+[35m[1mScanning dependencies of target vtkToPointCloud[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vtkToPointCloud.dir/src/vtkToPointCloud.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_point_cloud_vtk_tools/vtkToPointCloud[0m
+[100%] Built target vtkToPointCloud

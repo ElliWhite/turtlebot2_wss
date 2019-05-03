@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: volumetric_map_base
+Description: Description of volumetric_map_base
+Version: 0.0.0
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/volumetric_mapping/volumetric_map_base/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -lvolumetric_map_base
+Requires: cv_bridge eigen_catkin gflags_catkin glog_catkin image_geometry minkindr pcl_conversions pcl_ros sensor_msgs stereo_msgs

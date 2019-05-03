@@ -7,5 +7,6 @@
 subdirs(gtest)
 subdirs(point_cloud_filter)
 subdirs(rgb_pcd_kinect_fusion)
+subdirs(turtlebot_launchers)
 subdirs(turtlebot_teleop_keyboard)
 subdirs(turtlebot_description)

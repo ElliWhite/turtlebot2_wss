@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel
+
+Name: trajectory_control_msgs
+Description: Description of trajectory_control_msgs
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel/include -I/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/src/tradr-msgs/trajectory_control_msgs/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel/lib 
+Requires: actionlib actionlib_msgs geometry_msgs nav_msgs nifti_robot_driver_msgs roscpp sensor_msgs std_msgs tf visualization_msgs message_generation message_runtime

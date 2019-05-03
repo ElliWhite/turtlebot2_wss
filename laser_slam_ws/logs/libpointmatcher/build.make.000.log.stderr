@@ -1,0 +1,405 @@
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Scanner> m_pScanner;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Directives> m_pDirectives;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:9:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr <EmitterState> m_pState;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   Iterator(std::auto_ptr<IterPriv> pData);
+[01;32m[K                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<IterPriv> m_pData;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Node> Clone() const;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:53[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<NodeOwnership> m_pOwnership;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/ICP.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Scanner> m_pScanner;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Directives> m_pDirectives;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:9:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr <EmitterState> m_pState;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   Iterator(std::auto_ptr<IterPriv> pData);
+[01;32m[K                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<IterPriv> m_pData;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Node> Clone() const;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:6[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<NodeOwnership> m_pOwnership;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/Registrar.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:46:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Scanner> m_pScanner;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:8:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/parser.h:47:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Directives> m_pDirectives;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:9:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/emitter.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr <EmitterState> m_pState;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:20:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   Iterator(std::auto_ptr<IterPriv> pData);
+[01;32m[K                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:14:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/iterator.h:36:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<IterPriv> m_pData;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Node> Clone() const;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/yaml.h:13:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:42[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/contrib/yaml-cpp-pm/include/yaml-cpp-pm/node.h:117:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<NodeOwnership> m_pOwnership;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/PointMatcher.h:52[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher/pointmatcher/DataPointsFilter.cpp:36[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K

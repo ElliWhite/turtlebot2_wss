@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~leaf_size" : \b [double] Downsampling leaf size min: 0.0005, default: 0.075, max: 0.2
+- \b "~density_radius_multiplier" : \b [double] denisty search radius min: 1.0, default: 5.0, max: 20.0
+

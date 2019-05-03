@@ -1,0 +1,2 @@
+rgbdslam_v2
+-DCATKIN_DEVEL_PREFIX=/home/elliottwhite/turtlebot2_wss/rgbdslam_ws/devel -DCMAKE_INSTALL_PREFIX=/home/elliottwhite/turtlebot2_wss/rgbdslam_ws/install -G Unix Makefiles

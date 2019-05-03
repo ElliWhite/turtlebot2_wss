@@ -1,0 +1,11 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+exec_prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpointmatcher
+Description: See https://github.com/ethz-asl/libpointmatcher
+Version: 1.2.3
+Libs: -L${libdir}  /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libpointmatcher.so /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_program_options.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libnabo.a -lgomp -lrt
+Cflags: -I${includedir}/
+

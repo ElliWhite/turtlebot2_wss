@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: velodyne_assembler
+Description: Description of velodyne_assembler
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/sensor_drivers/velodyne_assembler/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -lvelodyne_assembler
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: doxygen_catkin
+Description: Description of doxygen_catkin
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib 
+Requires: 

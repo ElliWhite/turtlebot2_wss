@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~laser_frame" : \b [str] Laser frame min: , default: /laser, max: 
+- \b "~smoothing" : \b [double] Smoothing factor for the gaussian kernel min: 0.01, default: 1.0, max: 5.0
+- \b "~radius" : \b [double] Neighbor search radius min: 0.001, default: 0.2, max: 1.5
+- \b "~num_threads" : \b [int] Num. of threads min: 3, default: 4, max: 50
+- \b "~flatness_curvature_threshold" : \b [double] Flatness curvature threshold min: 0.001, default: 0.2, max: 1.0
+- \b "~kernel_type" : \b [int] Kernel type min: 0, default: 0, max: 1
+

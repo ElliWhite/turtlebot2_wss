@@ -1,0 +1,8 @@
+<launch>
+
+	<node pkg="turtlebot_teleop_keyboard" type="turtlebot_teleop_key_diff_drive_mux" name="turtlebot_teleop_key_diff_drive_mux" output="screen">
+		<remap from="/wheels_vel_cmd" to="/wheels_vel_cmd"/>
+	</node>
+
+
+</launch>

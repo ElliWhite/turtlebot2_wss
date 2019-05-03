@@ -1,0 +1,34 @@
+# CMake generated Testfile for 
+# Source directory: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam/geometry/tests
+# Build directory: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testCameraSet "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCameraSet")
+add_test(testSO3 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testSO3")
+add_test(testPinholePose "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPinholePose")
+add_test(testEssentialMatrix "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testEssentialMatrix")
+add_test(testQuaternion "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testQuaternion")
+add_test(testTriangulation "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testTriangulation")
+add_test(testRot3 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testRot3")
+add_test(testCalibratedCamera "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCalibratedCamera")
+add_test(testCal3_S2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCal3_S2")
+add_test(testPinholeCamera "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPinholeCamera")
+add_test(testSimpleCamera "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testSimpleCamera")
+add_test(testUnit3 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testUnit3")
+add_test(testSerializationGeometry "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testSerializationGeometry")
+add_test(testStereoPoint2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testStereoPoint2")
+add_test(testStereoCamera "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testStereoCamera")
+add_test(testRot2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testRot2")
+add_test(testPose2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPose2")
+add_test(testRot3M "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testRot3M")
+add_test(testOrientedPlane3 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testOrientedPlane3")
+add_test(testPinholeSet "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPinholeSet")
+add_test(testRot3Q "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testRot3Q")
+add_test(testPoint2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPoint2")
+add_test(testCal3DS2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCal3DS2")
+add_test(testPose3 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPose3")
+add_test(testCal3Unified "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCal3Unified")
+add_test(testPoint3 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testPoint3")
+add_test(testCal3Bundler "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCal3Bundler")
+add_test(testCyclic "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam/gtsam/geometry/tests/testCyclic")

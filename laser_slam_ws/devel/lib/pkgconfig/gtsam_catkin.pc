@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: gtsam_catkin
+Description: Description of gtsam_catkin
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib 
+Requires: eigen_catkin

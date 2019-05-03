@@ -1,0 +1,1055 @@
+[35m[1mScanning dependencies of target gtsam_src[0m
+[ 12%] [34m[1mCreating directories for 'gtsam_src'[0m
+[ 25%] [34m[1mPerforming download step (git clone) for 'gtsam_src'[0m
+Cloning into 'gtsam_src'...
+Note: checking out '687ae3d2511b9c296af08ec2f2e717b0627a8d68'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 687ae3d... Merged in fix/matlab_wrapper_scalar_references (pull request #287)
+[ 37%] [34m[1mNo patch step for 'gtsam_src'[0m
+[ 50%] [34m[1mNo update step for 'gtsam_src'[0m
+[ 62%] [34m[1mPerforming configure step for 'gtsam_src'[0m
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- GTSAM_SOURCE_ROOT_DIR: [/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src]
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   serialization
+--   system
+--   filesystem
+--   thread
+--   program_options
+--   date_time
+--   timer
+--   chrono
+--   atomic
+Ignoring Boost restriction on optional lvalue assignment from rvalues
+-- Found Intel TBB
+-- Could NOT find MKL (missing:  MKL_INCLUDE_DIR MKL_LIBRARIES) 
+-- Try OpenMP C flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -fopenmp  
+-- Found Eigen3: /usr/include/eigen3 (Required is at least version "2.91.0") 
+-- Building 3rdparty
+-- Looking for execinfo.h
+-- Looking for execinfo.h - found
+-- Looking for getline
+-- Looking for getline - found
+-- checking for thread-local storage - found
+-- Could NOT find GeographicLib (missing:  GeographicLib_LIBRARY_DIRS GeographicLib_LIBRARIES GeographicLib_INCLUDE_DIRS) 
+-- Building base
+-- Building geometry
+-- Building inference
+-- Building symbolic
+-- Building discrete
+-- Building linear
+-- Building nonlinear
+-- Building sam
+-- Building sfm
+-- Building slam
+-- Building smart
+-- Building navigation
+-- GTSAM Version: 4.0.0
+-- Install prefix: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+-- Building GTSAM - shared
+-- Building base_unstable
+-- Building geometry_unstable
+-- Building linear_unstable
+-- Building discrete_unstable
+-- Building dynamics_unstable
+-- Building nonlinear_unstable
+-- Building slam_unstable
+-- GTSAM_UNSTABLE Version: 4.0.0
+-- Install prefix: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+-- Building GTSAM_UNSTABLE - shared
+-- Wrote /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/GTSAMConfig.cmake
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.11") 
+-- ===============================================================
+-- ================  Configuration Options  ======================
+--   CMAKE_CXX_COMPILER_ID type     : GNU
+--   CMAKE_CXX_COMPILER_VERSION     : 5.4.0
+-- Build flags                                               
+--   Build Tests                    : Enabled
+--   Build examples with 'make all' : Enabled
+--   Build timing scripts with 'make all': Disabled
+--   Build Docs                     : Enabled
+--   Build static GTSAM library instead of shared: Disabled
+--   Put build type in library name : Enabled
+--   Build libgtsam_unstable        : Enabled
+--   Build type                     : Release
+--   C compilation flags            :  -std=c11   -Wall -O3 -DNDEBUG    -O3 -DNDEBUG
+--   C++ compilation flags          :  -std=c++11 -Wall -O3 -DNDEBUG    -O3 -DNDEBUG
+--   Use System Eigen               : Yes
+--   Use Intel TBB                  : Yes
+--   Eigen will use MKL             : MKL not found
+--   Eigen will use MKL and OpenMP  : OpenMP found but MKL not found
+--   Default allocator              : TBB
+-- Packaging flags                                               
+--   CPack Source Generator         : TGZ
+--   CPack Generator                : TGZ
+-- GTSAM flags                                               
+--   Quaternions as default Rot3     : Disabled
+--   Runtime consistency checking    : Disabled
+--   Rot3 retract is full ExpMap     : Disabled
+--   Pose3 retract is full ExpMap    : Disabled
+--   Deprecated in GTSAM 4 allowed   : Enabled
+--   Point3 is typedef to Vector3    : Disabled
+--   Metis-based Nested Dissection   : Enabled
+--   Use tangent-space preintegration: Enabled
+-- MATLAB toolbox flags                                      
+--   Install matlab toolbox         : Disabled
+--   Build Wrap                     : Enabled
+-- Python module flags                                       
+--   Build python module            : Disabled
+-- ===============================================================
+CMake Warning at CMakeLists.txt:519 (message):
+  MKL was not found - this is ok, but note that MKL yields better
+  performance.  Set GTSAM_WITH_EIGEN_MKL to 'Off' to disable this warning.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build
+[ 75%] [34m[1mPerforming build step for 'gtsam_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[35m[1mScanning dependencies of target CppUnitLite[0m
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/TestResult.cpp.o[0m
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/Test.cpp.o[0m
+[35m[1mScanning dependencies of target metis[0m
+[35m[1mScanning dependencies of target wrap_lib[0m
+[  2%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/TestRegistry.cpp.o[0m
+[  2%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/ReturnType.cpp.o[0m
+[  2%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Constructor.cpp.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/sort.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/blas.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/itemsets.c.o[0m
+[  2%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/FileWriter.cpp.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/csr.c.o[0m
+[  2%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Method.cpp.o[0m
+[  2%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/TemplateInstantiationTypedef.cpp.o[0m
+[  2%] [32m[1mLinking CXX static library libCppUnitLite.a[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/tokenizer.c.o[0m
+[  5%] Built target CppUnitLite
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/evaluate.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/random.c.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/StaticMethod.cpp.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/getopt.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/seq.c.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Function.cpp.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/htable.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/b64.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/rw.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/timers.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/memory.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/fkvkselect.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/io.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/graph.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/pqueue.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/string.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/fs.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/gkregex.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/error.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/mcore.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/pdb.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/util.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/omp.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/gklib.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/auxapi.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/sfm.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/pmetis.c.o[0m
+[ 10%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Deconstructor.cpp.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/options.c.o[0m
+[ 15%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Class.cpp.o[0m
+[ 15%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/MethodBase.cpp.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mmd.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/stat.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/checkgraph.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/meshpart.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/contig.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/kmetis.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/parmetis.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mincover.c.o[0m
+[ 17%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Argument.cpp.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/wspace.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/fortran.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/minconn.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/kwayfm.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/initpart.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/timing.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/frename.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/debug.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mcutil.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/coarsen.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/fm.c.o[0m
+[ 20%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Module.cpp.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/compress.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/balance.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/ometis.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/graph.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/bucketsort.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/kwayrefine.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/refine.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/separator.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mesh.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/util.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/srefine.c.o[0m
+[ 23%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/TypeAttributesTable.cpp.o[0m
+[ 23%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/ReturnValue.cpp.o[0m
+[ 23%] [32m[1mLinking C shared library libmetis.so[0m
+[ 23%] Built target metis
+[35m[1mScanning dependencies of target gtsam[0m
+[ 23%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/utilities.cpp.o[0m
+[ 25%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd.c.o[0m
+[ 25%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/GlobalFunction.cpp.o[0m
+[ 25%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd_global.c.o[0m
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/timing.cpp.o[0m
+[ 25%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/SuiteSparse_config/SuiteSparse_config.c.o[0m
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/Matrix.cpp.o[0m
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:[m[K In function ‘[01m[Kccolamd2[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:1563:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcs[m[K’ set but not used [-Wunused-but-set-variable]
+     Int cs ;
+[01;32m[K         ^[m[K
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/cholesky.cpp.o[0m
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/SymmetricBlockMatrix.cpp.o[0m
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/debug.cpp.o[0m
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/Vector.cpp.o[0m
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/cholesky.cpp:[m[K In function ‘[01m[Kbool gtsam::choleskyPartial(gtsam::Matrix&, std::size_t, std::size_t)[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/cholesky.cpp:134:16:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (nFrontal < n)
+[01;32m[K                ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/cholesky.cpp:140:16:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (nFrontal < n)
+[01;32m[K                ^[m[K
+[ 25%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/VerticalBlockMatrix.cpp.o[0m
+[ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o[0m
+[ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/DSFVector.cpp.o[0m
+[ 28%] [32m[1mLinking CXX static library libwrap_lib.a[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o[0m
+[ 30%] Built target wrap_lib
+[35m[1mScanning dependencies of target wrap[0m
+[ 30%] [32mBuilding CXX object wrap/CMakeFiles/wrap.dir/wrap.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable wrap[0m
+[ 33%] Built target wrap
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libgtsam.so[0m
+[ 64%] Built target gtsam
+[35m[1mScanning dependencies of target SFMExample[0m
+[35m[1mScanning dependencies of target StereoVOExample_large[0m
+[35m[1mScanning dependencies of target StereoVOExample[0m
+[35m[1mScanning dependencies of target Pose2SLAMExampleExpressions[0m
+[35m[1mScanning dependencies of target VisualISAM2Example[0m
+[35m[1mScanning dependencies of target SFMExample_bal_COLAMD_METIS[0m
+[ 64%] [32mBuilding CXX object examples/CMakeFiles/StereoVOExample_large.dir/StereoVOExample_large.cpp.o[0m
+[ 64%] [32mBuilding CXX object examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o[0m
+[ 64%] [32mBuilding CXX object examples/CMakeFiles/SFMExample.dir/SFMExample.cpp.o[0m
+[ 64%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/StereoVOExample.dir/StereoVOExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExampleExpressions.dir/Pose2SLAMExampleExpressions.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable StereoVOExample[0m
+[ 66%] Built target StereoVOExample
+[35m[1mScanning dependencies of target SFMExample_SmartFactorPCG[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactorPCG.dir/SFMExample_SmartFactorPCG.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable StereoVOExample_large[0m
+[ 66%] Built target StereoVOExample_large
+[35m[1mScanning dependencies of target Pose2SLAMwSPCG[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMwSPCG.dir/Pose2SLAMwSPCG.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable SFMExample[0m
+[ 66%] Built target SFMExample
+[35m[1mScanning dependencies of target OdometryExample[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/OdometryExample.dir/OdometryExample.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable SFMExample_bal_COLAMD_METIS[0m
+[ 66%] Built target SFMExample_bal_COLAMD_METIS
+[35m[1mScanning dependencies of target Pose2SLAMExample_g2o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_g2o.dir/Pose2SLAMExample_g2o.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable VisualISAM2Example[0m
+[ 66%] [32m[1mLinking CXX executable Pose2SLAMExampleExpressions[0m
+[ 66%] Built target VisualISAM2Example
+[ 66%] Built target Pose2SLAMExampleExpressions
+[35m[1mScanning dependencies of target Pose3SLAMExample_initializePose3Gradient[0m
+[35m[1mScanning dependencies of target SimpleRotation[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Gradient.dir/Pose3SLAMExample_initializePose3Gradient.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable Pose2SLAMwSPCG[0m
+[ 66%] [32m[1mLinking CXX executable SimpleRotation[0m
+[ 66%] [32m[1mLinking CXX executable Pose3SLAMExample_initializePose3Gradient[0m
+[ 66%] [32m[1mLinking CXX executable Pose2SLAMExample_g2o[0m
+[ 66%] [32m[1mLinking CXX executable OdometryExample[0m
+[ 66%] Built target OdometryExample
+[ 66%] Built target Pose3SLAMExample_initializePose3Gradient
+[ 66%] Built target Pose2SLAMwSPCG
+[ 66%] Built target Pose2SLAMExample_g2o
+[ 66%] Built target SimpleRotation
+[35m[1mScanning dependencies of target TimeTBB[0m
+[35m[1mScanning dependencies of target SFMExample_SmartFactor[0m
+[35m[1mScanning dependencies of target SFMExampleExpressions_bal[0m
+[35m[1mScanning dependencies of target Pose2SLAMExample_graph[0m
+[35m[1mScanning dependencies of target ImuFactorsExample[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/TimeTBB.dir/TimeTBB.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactor.dir/SFMExample_SmartFactor.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/ImuFactorsExample.dir/ImuFactorsExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graph.dir/Pose2SLAMExample_graph.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable SFMExample_SmartFactorPCG[0m
+[ 66%] Built target SFMExample_SmartFactorPCG
+[35m[1mScanning dependencies of target Pose2SLAMExample_lago[0m
+[ 69%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_lago.dir/Pose2SLAMExample_lago.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable TimeTBB[0m
+[ 69%] Built target TimeTBB
+[35m[1mScanning dependencies of target Pose3SLAMExample_initializePose3Chordal[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Chordal.dir/Pose3SLAMExample_initializePose3Chordal.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Pose2SLAMExample_graph[0m
+[ 71%] Built target Pose2SLAMExample_graph
+[35m[1mScanning dependencies of target SFMExampleExpressions[0m
+[ 71%] [32m[1mLinking CXX executable Pose2SLAMExample_lago[0m
+[ 71%] Built target Pose2SLAMExample_lago
+[35m[1mScanning dependencies of target SFMExample_bal[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal.dir/SFMExample_bal.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable ImuFactorsExample[0m
+[ 71%] Built target ImuFactorsExample
+[35m[1mScanning dependencies of target VisualISAMExample[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/VisualISAMExample.dir/VisualISAMExample.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Pose3SLAMExample_initializePose3Chordal[0m
+[ 71%] Built target Pose3SLAMExample_initializePose3Chordal
+[35m[1mScanning dependencies of target CreateSFMExampleData[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable VisualISAMExample[0m
+[ 74%] Built target VisualISAMExample
+[ 76%] [32m[1mLinking CXX executable SFMExample_bal[0m
+[35m[1mScanning dependencies of target Pose2SLAMExample[0m
+[ 76%] Built target SFMExample_bal
+[35m[1mScanning dependencies of target easyPoint2KalmanFilter[0m
+[ 76%] [32mBuilding CXX object examples/CMakeFiles/easyPoint2KalmanFilter.dir/easyPoint2KalmanFilter.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample.dir/Pose2SLAMExample.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable SFMExampleExpressions[0m
+[ 79%] Built target SFMExampleExpressions
+[35m[1mScanning dependencies of target RangeISAMExample_plaza2[0m
+[ 79%] [32mBuilding CXX object examples/CMakeFiles/RangeISAMExample_plaza2.dir/RangeISAMExample_plaza2.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable CreateSFMExampleData[0m
+[ 79%] [32m[1mLinking CXX executable RangeISAMExample_plaza2[0m
+[ 79%] Built target CreateSFMExampleData
+[ 79%] Built target RangeISAMExample_plaza2
+[ 82%] [32m[1mLinking CXX executable Pose2SLAMExample[0m
+[ 82%] Built target Pose2SLAMExample
+[35m[1mScanning dependencies of target Pose3SLAMExample_g2o[0m
+[35m[1mScanning dependencies of target Pose2SLAMExample_graphviz[0m
+[35m[1mScanning dependencies of target Pose3SLAMExample_changeKeys[0m
+[ 82%] [32m[1mLinking CXX executable easyPoint2KalmanFilter[0m
+[ 82%] Built target easyPoint2KalmanFilter
+[35m[1mScanning dependencies of target PlanarSLAMExample[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_g2o.dir/Pose3SLAMExample_g2o.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_changeKeys.dir/Pose3SLAMExample_changeKeys.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable Pose3SLAMExample_changeKeys[0m
+[ 82%] Built target Pose3SLAMExample_changeKeys
+[35m[1mScanning dependencies of target CameraResectioning[0m
+[ 82%] [32m[1mLinking CXX executable Pose3SLAMExample_g2o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/CameraResectioning.dir/CameraResectioning.cpp.o[0m
+[ 82%] Built target Pose3SLAMExample_g2o
+[ 82%] [32m[1mLinking CXX executable Pose2SLAMExample_graphviz[0m
+[35m[1mScanning dependencies of target SelfCalibrationExample[0m
+[ 82%] Built target Pose2SLAMExample_graphviz
+[35m[1mScanning dependencies of target SolverComparer[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/SelfCalibrationExample.dir/SelfCalibrationExample.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable PlanarSLAMExample[0m
+[ 82%] Built target PlanarSLAMExample
+[35m[1mScanning dependencies of target METISOrderingExample[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o[0m
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/examples/SolverComparer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/examples/SolverComparer.cpp:209:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<tbb::task_scheduler_init> init;
+[01;32m[K        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/Testable.h:36[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/slam/BetweenFactor.h:20[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/examples/SolverComparer.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+[ 82%] [32m[1mLinking CXX executable SelfCalibrationExample[0m
+[ 82%] Built target SelfCalibrationExample
+[35m[1mScanning dependencies of target LocalizationExample[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/LocalizationExample.dir/LocalizationExample.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable METISOrderingExample[0m
+[ 82%] Built target METISOrderingExample
+[ 82%] [32m[1mLinking CXX executable CameraResectioning[0m
+[ 82%] Built target CameraResectioning
+[35m[1mScanning dependencies of target gtsam_unstable[0m
+[ 82%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o[0m
+[ 82%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/base/Dummy.cpp.o[0m
+[ 82%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Similarity3.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable SolverComparer[0m
+[ 87%] [32m[1mLinking CXX executable LocalizationExample[0m
+[ 87%] Built target LocalizationExample
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o[0m
+[ 87%] Built target SolverComparer
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimPolygon2D.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimWall2D.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o[0m
+[ 87%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/RawQP.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library libgtsam_unstable.so[0m
+[ 94%] Built target gtsam_unstable
+[35m[1mScanning dependencies of target ConcurrentFilteringAndSmoothingExample[0m
+[35m[1mScanning dependencies of target schedulingQuals12[0m
+[35m[1mScanning dependencies of target schedulingExample[0m
+[35m[1mScanning dependencies of target schedulingQuals13[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingExample.dir/schedulingExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals12.dir/schedulingQuals12.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable ConcurrentFilteringAndSmoothingExample[0m
+[ 97%] [32m[1mLinking CXX executable schedulingQuals13[0m
+[ 97%] [32m[1mLinking CXX executable schedulingExample[0m
+[ 97%] [32m[1mLinking CXX executable schedulingQuals12[0m
+[ 97%] Built target ConcurrentFilteringAndSmoothingExample
+[ 97%] Built target schedulingQuals13
+[ 97%] Built target schedulingQuals12
+[ 97%] Built target schedulingExample
+[35m[1mScanning dependencies of target SmartRangeExample_plaza2[0m
+[35m[1mScanning dependencies of target ConcurrentCalibration[0m
+[35m[1mScanning dependencies of target SmartStereoProjectionFactorExample[0m
+[35m[1mScanning dependencies of target SmartRangeExample_plaza1[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o[0m
+[100%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza1.dir/SmartRangeExample_plaza1.cpp.o[0m
+[100%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartStereoProjectionFactorExample.dir/SmartStereoProjectionFactorExample.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:359:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/OptionalJacobian.h:22[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/Matrix.h:25[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/base/Manifold.h:22[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/geometry/BearingRange.h:21[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam/geometry/Pose2.h:23[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam_unstable/examples/SmartRangeExample_plaza1.cpp:20[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:[m[K In member function ‘[01m[Kgtsam::Point2 gtsam::SmartRangeFactor::triangulate(const gtsam::Values&) const[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:192:66:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& best_circle +16)[m[K’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data) {}
+[01;32m[K                                                                  ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam_unstable/examples/SmartRangeExample_plaza1.cpp:43:0[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/gtsam_unstable/slam/SmartRangeFactor.h:99:30:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& best_circle +16)[m[K’ was declared here
+     boost::optional<Circle2> best_circle;
+[01;32m[K                              ^[m[K
+[100%] [32m[1mLinking CXX executable ConcurrentCalibration[0m
+[100%] [32m[1mLinking CXX executable SmartRangeExample_plaza1[0m
+[100%] [32m[1mLinking CXX executable SmartRangeExample_plaza2[0m
+[100%] [32m[1mLinking CXX executable SmartStereoProjectionFactorExample[0m
+[100%] Built target ConcurrentCalibration
+[100%] Built target SmartStereoProjectionFactorExample
+[100%] Built target SmartRangeExample_plaza2
+[100%] Built target SmartRangeExample_plaza1
+[35m[1mScanning dependencies of target FixedLagSmootherExample[0m
+[35m[1mScanning dependencies of target SmartProjectionFactorExample[0m
+[100%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartProjectionFactorExample.dir/SmartProjectionFactorExample.cpp.o[0m
+[100%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/FixedLagSmootherExample.dir/FixedLagSmootherExample.cpp.o[0m
+[100%] [32m[1mLinking CXX executable FixedLagSmootherExample[0m
+[100%] Built target FixedLagSmootherExample
+[100%] [32m[1mLinking CXX executable SmartProjectionFactorExample[0m
+[100%] Built target SmartProjectionFactorExample
+[100%] [32m[1mLinking CXX executable SFMExampleExpressions_bal[0m
+[100%] Built target SFMExampleExpressions_bal
+[100%] [32m[1mLinking CXX executable SFMExample_SmartFactor[0m
+[100%] Built target SFMExample_SmartFactor
+[ 87%] [34m[1mPerforming install step for 'gtsam_src'[0m
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[  2%] Built target CppUnitLite
+[  7%] Built target wrap_lib
+[ 25%] Built target metis
+[ 28%] Built target wrap
+[ 64%] Built target gtsam
+[ 64%] Built target StereoVOExample_large
+[ 66%] Built target StereoVOExample
+[ 66%] Built target SFMExample
+[ 66%] Built target SFMExample_bal_COLAMD_METIS
+[ 66%] Built target Pose2SLAMExampleExpressions
+[ 66%] Built target VisualISAM2Example
+[ 66%] Built target Pose2SLAMwSPCG
+[ 66%] Built target SFMExample_SmartFactorPCG
+[ 66%] Built target SimpleRotation
+[ 66%] Built target Pose2SLAMExample_g2o
+[ 66%] Built target OdometryExample
+[ 66%] Built target Pose3SLAMExample_initializePose3Gradient
+[ 66%] Built target TimeTBB
+[ 66%] Built target SFMExample_SmartFactor
+[ 69%] Built target Pose2SLAMExample_lago
+[ 69%] Built target Pose2SLAMExample_graph
+[ 69%] Built target SFMExampleExpressions_bal
+[ 69%] Built target ImuFactorsExample
+[ 71%] Built target Pose3SLAMExample_initializePose3Chordal
+[ 74%] Built target SFMExampleExpressions
+[ 76%] Built target SFMExample_bal
+[ 79%] Built target VisualISAMExample
+[ 82%] Built target Pose2SLAMExample
+[ 82%] Built target easyPoint2KalmanFilter
+[ 82%] Built target CreateSFMExampleData
+[ 82%] Built target RangeISAMExample_plaza2
+[ 82%] Built target Pose3SLAMExample_g2o
+[ 82%] Built target Pose2SLAMExample_graphviz
+[ 82%] Built target Pose3SLAMExample_changeKeys
+[ 82%] Built target SelfCalibrationExample
+[ 82%] Built target PlanarSLAMExample
+[ 82%] Built target CameraResectioning
+[ 82%] Built target SolverComparer
+[ 82%] Built target METISOrderingExample
+[ 84%] Built target LocalizationExample
+[ 94%] Built target gtsam_unstable
+[ 94%] Built target SmartRangeExample_plaza2
+[ 97%] Built target schedulingQuals12
+[ 97%] Built target schedulingQuals13
+[ 97%] Built target schedulingExample
+[ 97%] Built target ConcurrentFilteringAndSmoothingExample
+[ 97%] Built target ConcurrentCalibration
+[ 97%] Built target FixedLagSmootherExample
+[ 97%] Built target SmartProjectionFactorExample
+[ 97%] Built target SmartStereoProjectionFactorExample
+[100%] Built target SmartRangeExample_plaza1
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAM/gtsam_extra.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAM/GTSAMConfig.cmake
+-- Old export file "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAM/GTSAM-exports.cmake" will be replaced.  Removing files [/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAM/GTSAM-exports-release.cmake].
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAM/GTSAM-exports.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAM/GTSAM-exports-release.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/CppUnitLite/TestRegistry.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/CppUnitLite/TestHarness.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/CppUnitLite/Test.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/CppUnitLite/TestResult.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/CppUnitLite/Failure.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libCppUnitLite.a
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/bin/wrap
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/wrap/matlab.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/global_includes.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/config.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/dllexport.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam.so.4.0.0
+-- Up-to-date: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam.so.4
+-- Up-to-date: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam.so
+-- Set runtime path of "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam.so.4.0.0" to ""
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/CCOLAMD/ccolamd.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/SuiteSparse_config/SuiteSparse_config.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/metis/metis.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libmetis.so
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/rotation.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/variadic_evaluate.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/fpclassify.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/jet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/eigen.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/autodiff.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/manual_constructor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/macros.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/fixed_array.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/3rdparty/ceres/example.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/ProductLieGroup.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Lie.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/FastList.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/FastVector.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/VectorSpace.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/serializationTestHelpers.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/ThreadsafeException.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/numericalDerivative.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Matrix.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/testLie.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/DSFVector.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/debug.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/DerivedValue.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/concepts.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/LieMatrix.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Vector.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/FastMap.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Testable.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/LieScalar.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/FastDefaultAllocator.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/timing.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/treeTraversal-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/cholesky.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/serialization.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/lieProxies.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/FastSet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/OptionalJacobian.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Manifold.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/chartTesting.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/GenericValue.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/LieVector.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/TestableAssertions.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/ConcurrentMap.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Group.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/Value.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/types.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/treeTraversal/statistics.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/treeTraversal/parallelTraversalTasks.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/deprecated/LieMatrix.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/deprecated/LieScalar.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/base/deprecated/LieVector.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cal3_S2Stereo.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/OrientedPlane3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/StereoCamera.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Quaternion.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/PinholeCamera.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Unit3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/EssentialMatrix.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cal3Bundler.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/SimpleCamera.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cal3Unified.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/concepts.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/triangulation.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Pose3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Rot3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/CameraSet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/SO3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cal3DS2_Base.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cal3_S2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/CalibratedCamera.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Point2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Point3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cal3DS2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Cyclic.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Pose2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/Rot2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/BearingRange.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/StereoPoint2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/PinholePose.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/geometry/PinholeSet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/Conditional-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/ISAM.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/EliminationTree-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/BayesNet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/ISAM-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/EliminationTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/BayesNet-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/Factor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/BayesTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/EliminateableFactorGraph-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/inferenceExceptions.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/JunctionTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/VariableIndex.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/inference-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/JunctionTree-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/ClusterTree-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/FactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/Key.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/graph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/ClusterTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/Conditional.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/Symbol.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/BayesTree-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/VariableSlots.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/Ordering.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/LabeledSymbol.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/MetisIndex-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/FactorGraph-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/MetisIndex.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/VariableIndex-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/graph-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/inference/BayesTreeCliqueBase-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicBayesNet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicConditional.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicJunctionTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicISAM.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicEliminationTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicBayesTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicFactor-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/symbolic/SymbolicFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteBayesTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteMarginals.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteKey.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DecisionTreeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/Assignment.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DecisionTree-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteJunctionTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteEliminationTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteConditional.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteBayesNet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DecisionTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/Potentials.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/Signature.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/DiscreteFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/discrete/AlgebraicDecisionTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/linearAlgorithms-inst.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/SubgraphPreconditioner.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/BinaryJacobianFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianISAM.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/NoiseModel.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianBayesNet.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianConditional-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/JacobianFactor-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/VectorValues.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/IterativeSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianBayesTree-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/Errors.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/JacobianFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/RegularJacobianFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/linearExceptions.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/HessianFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/RegularHessianFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/iterative-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/PCGSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/Preconditioner.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/KalmanFilter.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/SubgraphSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/iterative.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianJunctionTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianConditional.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianDensity.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianEliminationTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/ConjugateGradientSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/Scatter.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/GaussianBayesTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/Sampler.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/linear/HessianFactor-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/expressionTesting.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/DoglegOptimizer.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/Values.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ISAM2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/Expression-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/Marginals.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ISAM2-impl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearConjugateGradientOptimizer.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ExtendedKalmanFilter.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/AdaptAutoDiff.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/LinearContainerFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearOptimizer.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/Values-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/Expression.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/factorTesting.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearOptimizerParams.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ExpressionFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ISAM2-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/Symbol.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/GaussNewtonOptimizer.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearEquality.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtParams.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/WhiteNoiseFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ExtendedKalmanFilter-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/nonlinearExceptions.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearISAM.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/expressions.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/ExpressionFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/internal/ExecutionTrace.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/internal/LevenbergMarquardtState.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/internal/CallRecord.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/internal/NonlinearOptimizerState.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/internal/ExpressionNode.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/internal/JacobianMap.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/sam/RangeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/sam/BearingFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/sam/BearingRangeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/TriangulationFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/RegularImplicitSchurFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/lago.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/StereoFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/PoseRotationPrior.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/BetweenFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/PoseTranslationPrior.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/SmartProjectionPoseFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/ProjectionFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/RangeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/PriorFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/ReferenceFrameFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/dataset.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/SmartProjectionFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/SmartFactorBase.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/InitializePose3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/GeneralSFMFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/JacobianFactorQ.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/OrientedPlane3Factor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/EssentialMatrixConstraint.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/AntiFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/JacobianFactorQR.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/RotateFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/BoundingConstraint.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/EssentialMatrixFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/BearingFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/BearingRangeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/slam/expressions.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/AHRSFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/ImuFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/PreintegrationParams.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/ImuBias.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/TangentPreintegration.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/Scenario.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/NavState.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/PreintegratedRotation.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/MagFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/AttitudeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/CombinedImuFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/ScenarioRunner.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/PreintegrationBase.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/GPSFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/navigation/ManifoldPreintegration.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam_unstable.so.4.0.0
+-- Up-to-date: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam_unstable.so.4
+-- Up-to-date: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam_unstable.so
+-- Set runtime path of "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libgtsam_unstable.so.4.0.0" to ""
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/base/dllexport.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/base/DSF.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/base/DSFMap.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/base/FixedVector.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/base/Dummy.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/base/BTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/SimPolygon2D.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/BearingS2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/SimWall2D.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/Pose3Upright.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/InvDepthCamera3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/Event.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/geometry/Similarity3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/LPSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/LinearEquality.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/QPSParserException.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/InfeasibleInitialValues.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/QPSParser.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/QPInitSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/LinearInequality.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/ActiveSetSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/InequalityFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/InfeasibleOrUnboundedProblem.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/LPInitSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/RawQP.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/QPSolver.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/LinearCost.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/EqualityFactorGraph.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/QP.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/ActiveSetSolver-inl.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/linear/LP.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/Scheduler.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/SingleValue.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/Domain.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/CSP.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/BinaryAllDiff.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/AllDiff.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/discrete/Constraint.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/DynamicsPriors.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/IMUFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/VelocityConstraint3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/PoseRTV.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/VelocityConstraint.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/Pendulum.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/SimpleHelicopter.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/dynamics/FullIMUFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/FixedLagSmoother.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/NonlinearClusterTree.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/ConcurrentFilteringAndSmoothing.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/ConcurrentIncrementalSmoother.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/BatchFixedLagSmoother.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/ConcurrentIncrementalFilter.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/ConcurrentBatchFilter.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/ConcurrentBatchSmoother.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/nonlinear/LinearizedFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/EquivInertialNavFactor_GlobalVel.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/InvDepthFactorVariant3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/TransformBtwRobotsUnaryFactorEM.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/EquivInertialNavFactor_GlobalVel_NoBias.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/PoseBetweenFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/TransformBtwRobotsUnaryFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/InvDepthFactorVariant2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/TSAMFactors.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/MultiProjectionFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/PosePriorFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/BiasedGPSFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/GaussMarkov1stOrderFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/InvDepthFactorVariant1.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/BetweenFactorEM.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/Mechanization_bRn2.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/TOAFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/DummyFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/AHRS.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/SmartStereoProjectionFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/SmartStereoProjectionPoseFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/PartialPriorFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/InertialNavFactor_GlobalVelocity.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/SmartRangeFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/ProjectionFactorPPPC.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/ProjectionFactorPPP.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/InvDepthFactor3.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam_unstable/slam/RelativeElevationFactor.h
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/GTSAMCMakeToolsConfig.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/Config.cmake.in
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/dllexport.h.in
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/GtsamBuildTypes.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/GtsamMakeConfigFile.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/GtsamMatlabWrap.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/GtsamPythonWrap.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake
+-- Installing: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/cmake/GTSAMCMakeTools/README.html
+[100%] [34m[1mCompleted 'gtsam_src'[0m
+[100%] Built target gtsam_src

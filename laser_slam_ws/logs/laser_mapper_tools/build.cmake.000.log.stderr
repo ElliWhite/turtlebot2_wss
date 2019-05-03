@@ -1,0 +1,52 @@
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:133 (add_executable):
+  Cannot generate a safe runtime search path for target
+  octomap_to_point_cloud because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [libpython2.7.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:17 (cs_add_executable)
+
+
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:133 (add_executable):
+  Cannot generate a safe runtime search path for target laser_to_octomap
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython2.7.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:18 (cs_add_executable)
+
+
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:150 (add_library):
+  Cannot generate a safe runtime search path for target laser_mapper_tools
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython2.7.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:14 (cs_add_library)
+
+
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:133 (add_executable):
+  Cannot generate a safe runtime search path for target
+  rigid_map_alignment_node because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [libpython2.7.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:20 (cs_add_executable)
+
+

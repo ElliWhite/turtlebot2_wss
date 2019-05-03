@@ -1,0 +1,420 @@
+;; Auto-generated. Do not edit!
+
+
+(when (boundp 'wireless_network_msgs::linkutilization)
+  (if (not (find-package "WIRELESS_NETWORK_MSGS"))
+    (make-package "WIRELESS_NETWORK_MSGS"))
+  (shadow 'linkutilization (find-package "WIRELESS_NETWORK_MSGS")))
+(unless (find-package "WIRELESS_NETWORK_MSGS::LINKUTILIZATION")
+  (make-package "WIRELESS_NETWORK_MSGS::LINKUTILIZATION"))
+
+(in-package "ROS")
+;;//! \htmlinclude linkutilization.msg.html
+(if (not (find-package "STD_MSGS"))
+  (ros::roseus-add-msgs "std_msgs"))
+
+
+(defclass wireless_network_msgs::linkutilization
+  :super ros::object
+  :slots (_header _tcp_tx_segments _tcp_rx_segments _tcp_tx_segmentrate _tcp_rx_segmentrate _udp_tx_datagrams _udp_rx_datagrams _udp_tx_datagramrate _udp_rx_datagramrate _total_tx_packets _total_tx_bytes _total_rx_packets _total_rx_bytes _total_tx_mbps _total_rx_mbps ))
+
+(defmethod wireless_network_msgs::linkutilization
+  (:init
+   (&key
+    ((:header __header) (instance std_msgs::Header :init))
+    ((:tcp_tx_segments __tcp_tx_segments) 0)
+    ((:tcp_rx_segments __tcp_rx_segments) 0)
+    ((:tcp_tx_segmentrate __tcp_tx_segmentrate) 0.0)
+    ((:tcp_rx_segmentrate __tcp_rx_segmentrate) 0.0)
+    ((:udp_tx_datagrams __udp_tx_datagrams) 0)
+    ((:udp_rx_datagrams __udp_rx_datagrams) 0)
+    ((:udp_tx_datagramrate __udp_tx_datagramrate) 0.0)
+    ((:udp_rx_datagramrate __udp_rx_datagramrate) 0.0)
+    ((:total_tx_packets __total_tx_packets) 0)
+    ((:total_tx_bytes __total_tx_bytes) 0)
+    ((:total_rx_packets __total_rx_packets) 0)
+    ((:total_rx_bytes __total_rx_bytes) 0)
+    ((:total_tx_mbps __total_tx_mbps) 0.0)
+    ((:total_rx_mbps __total_rx_mbps) 0.0)
+    )
+   (send-super :init)
+   (setq _header __header)
+   (setq _tcp_tx_segments (round __tcp_tx_segments))
+   (setq _tcp_rx_segments (round __tcp_rx_segments))
+   (setq _tcp_tx_segmentrate (float __tcp_tx_segmentrate))
+   (setq _tcp_rx_segmentrate (float __tcp_rx_segmentrate))
+   (setq _udp_tx_datagrams (round __udp_tx_datagrams))
+   (setq _udp_rx_datagrams (round __udp_rx_datagrams))
+   (setq _udp_tx_datagramrate (float __udp_tx_datagramrate))
+   (setq _udp_rx_datagramrate (float __udp_rx_datagramrate))
+   (setq _total_tx_packets (round __total_tx_packets))
+   (setq _total_tx_bytes (round __total_tx_bytes))
+   (setq _total_rx_packets (round __total_rx_packets))
+   (setq _total_rx_bytes (round __total_rx_bytes))
+   (setq _total_tx_mbps (float __total_tx_mbps))
+   (setq _total_rx_mbps (float __total_rx_mbps))
+   self)
+  (:header
+   (&rest __header)
+   (if (keywordp (car __header))
+       (send* _header __header)
+     (progn
+       (if __header (setq _header (car __header)))
+       _header)))
+  (:tcp_tx_segments
+   (&optional __tcp_tx_segments)
+   (if __tcp_tx_segments (setq _tcp_tx_segments __tcp_tx_segments)) _tcp_tx_segments)
+  (:tcp_rx_segments
+   (&optional __tcp_rx_segments)
+   (if __tcp_rx_segments (setq _tcp_rx_segments __tcp_rx_segments)) _tcp_rx_segments)
+  (:tcp_tx_segmentrate
+   (&optional __tcp_tx_segmentrate)
+   (if __tcp_tx_segmentrate (setq _tcp_tx_segmentrate __tcp_tx_segmentrate)) _tcp_tx_segmentrate)
+  (:tcp_rx_segmentrate
+   (&optional __tcp_rx_segmentrate)
+   (if __tcp_rx_segmentrate (setq _tcp_rx_segmentrate __tcp_rx_segmentrate)) _tcp_rx_segmentrate)
+  (:udp_tx_datagrams
+   (&optional __udp_tx_datagrams)
+   (if __udp_tx_datagrams (setq _udp_tx_datagrams __udp_tx_datagrams)) _udp_tx_datagrams)
+  (:udp_rx_datagrams
+   (&optional __udp_rx_datagrams)
+   (if __udp_rx_datagrams (setq _udp_rx_datagrams __udp_rx_datagrams)) _udp_rx_datagrams)
+  (:udp_tx_datagramrate
+   (&optional __udp_tx_datagramrate)
+   (if __udp_tx_datagramrate (setq _udp_tx_datagramrate __udp_tx_datagramrate)) _udp_tx_datagramrate)
+  (:udp_rx_datagramrate
+   (&optional __udp_rx_datagramrate)
+   (if __udp_rx_datagramrate (setq _udp_rx_datagramrate __udp_rx_datagramrate)) _udp_rx_datagramrate)
+  (:total_tx_packets
+   (&optional __total_tx_packets)
+   (if __total_tx_packets (setq _total_tx_packets __total_tx_packets)) _total_tx_packets)
+  (:total_tx_bytes
+   (&optional __total_tx_bytes)
+   (if __total_tx_bytes (setq _total_tx_bytes __total_tx_bytes)) _total_tx_bytes)
+  (:total_rx_packets
+   (&optional __total_rx_packets)
+   (if __total_rx_packets (setq _total_rx_packets __total_rx_packets)) _total_rx_packets)
+  (:total_rx_bytes
+   (&optional __total_rx_bytes)
+   (if __total_rx_bytes (setq _total_rx_bytes __total_rx_bytes)) _total_rx_bytes)
+  (:total_tx_mbps
+   (&optional __total_tx_mbps)
+   (if __total_tx_mbps (setq _total_tx_mbps __total_tx_mbps)) _total_tx_mbps)
+  (:total_rx_mbps
+   (&optional __total_rx_mbps)
+   (if __total_rx_mbps (setq _total_rx_mbps __total_rx_mbps)) _total_rx_mbps)
+  (:serialization-length
+   ()
+   (+
+    ;; std_msgs/Header _header
+    (send _header :serialization-length)
+    ;; int64 _tcp_tx_segments
+    8
+    ;; int64 _tcp_rx_segments
+    8
+    ;; float64 _tcp_tx_segmentrate
+    8
+    ;; float64 _tcp_rx_segmentrate
+    8
+    ;; int64 _udp_tx_datagrams
+    8
+    ;; int64 _udp_rx_datagrams
+    8
+    ;; float64 _udp_tx_datagramrate
+    8
+    ;; float64 _udp_rx_datagramrate
+    8
+    ;; int64 _total_tx_packets
+    8
+    ;; int64 _total_tx_bytes
+    8
+    ;; int64 _total_rx_packets
+    8
+    ;; int64 _total_rx_bytes
+    8
+    ;; float64 _total_tx_mbps
+    8
+    ;; float64 _total_rx_mbps
+    8
+    ))
+  (:serialize
+   (&optional strm)
+   (let ((s (if strm strm
+              (make-string-output-stream (send self :serialization-length)))))
+     ;; std_msgs/Header _header
+       (send _header :serialize s)
+     ;; int64 _tcp_tx_segments
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _tcp_tx_segments (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _tcp_tx_segments) (= (length (_tcp_tx_segments . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_tcp_tx_segments . bv) 0) 0) s)
+              (write-long (ash (elt (_tcp_tx_segments . bv) 1) -1) s))
+             ((and (class _tcp_tx_segments) (= (length (_tcp_tx_segments . bv)) 1)) ;; big1
+              (write-long (elt (_tcp_tx_segments . bv) 0) s)
+              (write-long (if (>= _tcp_tx_segments 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _tcp_tx_segments s)(write-long (if (>= _tcp_tx_segments 0) 0 #xffffffff) s)))
+     ;; int64 _tcp_rx_segments
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _tcp_rx_segments (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _tcp_rx_segments) (= (length (_tcp_rx_segments . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_tcp_rx_segments . bv) 0) 0) s)
+              (write-long (ash (elt (_tcp_rx_segments . bv) 1) -1) s))
+             ((and (class _tcp_rx_segments) (= (length (_tcp_rx_segments . bv)) 1)) ;; big1
+              (write-long (elt (_tcp_rx_segments . bv) 0) s)
+              (write-long (if (>= _tcp_rx_segments 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _tcp_rx_segments s)(write-long (if (>= _tcp_rx_segments 0) 0 #xffffffff) s)))
+     ;; float64 _tcp_tx_segmentrate
+       (sys::poke _tcp_tx_segmentrate (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; float64 _tcp_rx_segmentrate
+       (sys::poke _tcp_rx_segmentrate (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; int64 _udp_tx_datagrams
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _udp_tx_datagrams (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _udp_tx_datagrams) (= (length (_udp_tx_datagrams . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_udp_tx_datagrams . bv) 0) 0) s)
+              (write-long (ash (elt (_udp_tx_datagrams . bv) 1) -1) s))
+             ((and (class _udp_tx_datagrams) (= (length (_udp_tx_datagrams . bv)) 1)) ;; big1
+              (write-long (elt (_udp_tx_datagrams . bv) 0) s)
+              (write-long (if (>= _udp_tx_datagrams 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _udp_tx_datagrams s)(write-long (if (>= _udp_tx_datagrams 0) 0 #xffffffff) s)))
+     ;; int64 _udp_rx_datagrams
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _udp_rx_datagrams (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _udp_rx_datagrams) (= (length (_udp_rx_datagrams . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_udp_rx_datagrams . bv) 0) 0) s)
+              (write-long (ash (elt (_udp_rx_datagrams . bv) 1) -1) s))
+             ((and (class _udp_rx_datagrams) (= (length (_udp_rx_datagrams . bv)) 1)) ;; big1
+              (write-long (elt (_udp_rx_datagrams . bv) 0) s)
+              (write-long (if (>= _udp_rx_datagrams 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _udp_rx_datagrams s)(write-long (if (>= _udp_rx_datagrams 0) 0 #xffffffff) s)))
+     ;; float64 _udp_tx_datagramrate
+       (sys::poke _udp_tx_datagramrate (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; float64 _udp_rx_datagramrate
+       (sys::poke _udp_rx_datagramrate (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; int64 _total_tx_packets
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _total_tx_packets (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _total_tx_packets) (= (length (_total_tx_packets . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_total_tx_packets . bv) 0) 0) s)
+              (write-long (ash (elt (_total_tx_packets . bv) 1) -1) s))
+             ((and (class _total_tx_packets) (= (length (_total_tx_packets . bv)) 1)) ;; big1
+              (write-long (elt (_total_tx_packets . bv) 0) s)
+              (write-long (if (>= _total_tx_packets 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _total_tx_packets s)(write-long (if (>= _total_tx_packets 0) 0 #xffffffff) s)))
+     ;; int64 _total_tx_bytes
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _total_tx_bytes (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _total_tx_bytes) (= (length (_total_tx_bytes . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_total_tx_bytes . bv) 0) 0) s)
+              (write-long (ash (elt (_total_tx_bytes . bv) 1) -1) s))
+             ((and (class _total_tx_bytes) (= (length (_total_tx_bytes . bv)) 1)) ;; big1
+              (write-long (elt (_total_tx_bytes . bv) 0) s)
+              (write-long (if (>= _total_tx_bytes 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _total_tx_bytes s)(write-long (if (>= _total_tx_bytes 0) 0 #xffffffff) s)))
+     ;; int64 _total_rx_packets
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _total_rx_packets (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _total_rx_packets) (= (length (_total_rx_packets . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_total_rx_packets . bv) 0) 0) s)
+              (write-long (ash (elt (_total_rx_packets . bv) 1) -1) s))
+             ((and (class _total_rx_packets) (= (length (_total_rx_packets . bv)) 1)) ;; big1
+              (write-long (elt (_total_rx_packets . bv) 0) s)
+              (write-long (if (>= _total_rx_packets 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _total_rx_packets s)(write-long (if (>= _total_rx_packets 0) 0 #xffffffff) s)))
+     ;; int64 _total_rx_bytes
+#+(or :alpha :irix6 :x86_64)
+       (progn (sys::poke _total_rx_bytes (send s :buffer) (send s :count) :long) (incf (stream-count s) 8))
+#-(or :alpha :irix6 :x86_64)
+       (cond ((and (class _total_rx_bytes) (= (length (_total_rx_bytes . bv)) 2)) ;; bignum
+              (write-long (ash (elt (_total_rx_bytes . bv) 0) 0) s)
+              (write-long (ash (elt (_total_rx_bytes . bv) 1) -1) s))
+             ((and (class _total_rx_bytes) (= (length (_total_rx_bytes . bv)) 1)) ;; big1
+              (write-long (elt (_total_rx_bytes . bv) 0) s)
+              (write-long (if (>= _total_rx_bytes 0) 0 #xffffffff) s))
+             (t                                         ;; integer
+              (write-long _total_rx_bytes s)(write-long (if (>= _total_rx_bytes 0) 0 #xffffffff) s)))
+     ;; float64 _total_tx_mbps
+       (sys::poke _total_tx_mbps (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;; float64 _total_rx_mbps
+       (sys::poke _total_rx_mbps (send s :buffer) (send s :count) :double) (incf (stream-count s) 8)
+     ;;
+     (if (null strm) (get-output-stream-string s))))
+  (:deserialize
+   (buf &optional (ptr- 0))
+   ;; std_msgs/Header _header
+     (send _header :deserialize buf ptr-) (incf ptr- (send _header :serialization-length))
+   ;; int64 _tcp_tx_segments
+#+(or :alpha :irix6 :x86_64)
+      (setf _tcp_tx_segments (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _tcp_tx_segments (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; int64 _tcp_rx_segments
+#+(or :alpha :irix6 :x86_64)
+      (setf _tcp_rx_segments (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _tcp_rx_segments (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; float64 _tcp_tx_segmentrate
+     (setq _tcp_tx_segmentrate (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; float64 _tcp_rx_segmentrate
+     (setq _tcp_rx_segmentrate (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; int64 _udp_tx_datagrams
+#+(or :alpha :irix6 :x86_64)
+      (setf _udp_tx_datagrams (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _udp_tx_datagrams (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; int64 _udp_rx_datagrams
+#+(or :alpha :irix6 :x86_64)
+      (setf _udp_rx_datagrams (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _udp_rx_datagrams (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; float64 _udp_tx_datagramrate
+     (setq _udp_tx_datagramrate (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; float64 _udp_rx_datagramrate
+     (setq _udp_rx_datagramrate (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; int64 _total_tx_packets
+#+(or :alpha :irix6 :x86_64)
+      (setf _total_tx_packets (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _total_tx_packets (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; int64 _total_tx_bytes
+#+(or :alpha :irix6 :x86_64)
+      (setf _total_tx_bytes (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _total_tx_bytes (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; int64 _total_rx_packets
+#+(or :alpha :irix6 :x86_64)
+      (setf _total_rx_packets (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _total_rx_packets (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; int64 _total_rx_bytes
+#+(or :alpha :irix6 :x86_64)
+      (setf _total_rx_bytes (prog1 (sys::peek buf ptr- :long) (incf ptr- 8)))
+#-(or :alpha :irix6 :x86_64)
+      (setf _total_rx_bytes (let ((b0 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4)))
+                  (b1 (prog1 (sys::peek buf ptr- :integer) (incf ptr- 4))))
+              (cond ((= b1 -1) b0)
+                     ((and (= b1  0)
+                           (<= lisp::most-negative-fixnum b0 lisp::most-positive-fixnum))
+                      b0)
+                    ((= b1  0) (make-instance bignum :size 1 :bv (integer-vector b0)))
+                    (t (make-instance bignum :size 2 :bv (integer-vector b0 (ash b1 1)))))))
+   ;; float64 _total_tx_mbps
+     (setq _total_tx_mbps (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;; float64 _total_rx_mbps
+     (setq _total_rx_mbps (sys::peek buf ptr- :double)) (incf ptr- 8)
+   ;;
+   self)
+  )
+
+(setf (get wireless_network_msgs::linkutilization :md5sum-) "c1b31e7f399b226658f6062ec5c03a38")
+(setf (get wireless_network_msgs::linkutilization :datatype-) "wireless_network_msgs/linkutilization")
+(setf (get wireless_network_msgs::linkutilization :definition-)
+      "Header header
+#TCP related information on link utilization for a given (NIC) interface
+int64 tcp_tx_segments
+int64 tcp_rx_segments
+float64 tcp_tx_segmentrate
+float64 tcp_rx_segmentrate
+
+#UDP related information on link utilization for a given (NIC) interface
+int64 udp_tx_datagrams
+int64 udp_rx_datagrams
+float64 udp_tx_datagramrate
+float64 udp_rx_datagramrate
+
+#Total (IP: TCP + UDP) link utilization for a given (NIC) interface
+int64 total_tx_packets
+int64 total_tx_bytes
+int64 total_rx_packets
+int64 total_rx_bytes
+float64 total_tx_mbps
+float64 total_rx_mbps
+
+================================================================================
+MSG: std_msgs/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')
+# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+
+")
+
+
+
+(provide :wireless_network_msgs/linkutilization "c1b31e7f399b226658f6062ec5c03a38")
+
+

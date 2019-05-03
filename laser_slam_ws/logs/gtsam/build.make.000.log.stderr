@@ -1,0 +1,14 @@
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:[m[K In function ‘[01m[Kccolamd2[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:1595:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcs[m[K’ set but not used [-Wunused-but-set-variable]
+     Int cs ;
+[01;32m[K         ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:76:29:[m[K [01;35m[Kwarning: [m[Kname lookup of ‘[01m[Ki[m[K’ changed
+     initial_estimate.insert(i, Pose3(m));
+[01;32m[K                             ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:70:7:[m[K [01;35m[Kwarning: [m[K  matches this ‘[01m[Ki[m[K’ under ISO standard rules
+   int i;
+[01;32m[K       ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:74:14:[m[K [01;35m[Kwarning: [m[K  matches this ‘[01m[Ki[m[K’ under old rules
+     for (int i = 0; i < 16; i++)
+[01;32m[K              ^[m[K

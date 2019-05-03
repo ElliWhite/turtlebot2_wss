@@ -1,0 +1,2 @@
+set(nifti_robot_driver_msgs_MESSAGE_FILES "msg/ControllersStatus.msg;msg/Currents.msg;msg/CurrentsStamped.msg;msg/FlippersState.msg;msg/FlippersVel.msg;msg/FlippersVelStamped.msg;msg/FlippersStateStamped.msg;msg/FlippersTorque.msg;msg/FlippersTorqueStamped.msg;msg/FlipperCommand.msg;msg/RobotStatus.msg;msg/RobotStatusStamped.msg;msg/Tracks.msg;msg/TracksStamped.msg")
+set(nifti_robot_driver_msgs_SERVICE_FILES "")

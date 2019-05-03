@@ -1,0 +1,32 @@
+warning: Tag `XML_SCHEMA' at line 1797 of file `/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/laser_slam/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `XML_DTD' at line 1803 of file `/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/laser_slam/Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/pointmatcher/PointMatcher.h:62:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/common.hpp:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/laser_track.hpp:10[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/src/laser_track.cpp:1[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/pointmatcher/Parametrizable.h:46:0:[m[K [01;35m[Kwarning: [m[K"BOOST_ASSIGN_MAX_PARAMS" redefined
+ #define BOOST_ASSIGN_MAX_PARAMS 6
+[01;32m[K ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h:30:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/laser_track.hpp:6[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/src/laser_track.cpp:1[m[K:
+[01m[K/usr/include/boost/assign/list_of.hpp:378:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define BOOST_ASSIGN_MAX_PARAMS 5
+[01;32m[K ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/pointmatcher/PointMatcher.h:62:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/common.hpp:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/sliding_window_estimator.hpp:6[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/src/sliding_window_estimator.cpp:1[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/pointmatcher/Parametrizable.h:46:0:[m[K [01;35m[Kwarning: [m[K"BOOST_ASSIGN_MAX_PARAMS" redefined
+ #define BOOST_ASSIGN_MAX_PARAMS 6
+[01;32m[K ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h:30:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/sliding_window_estimator.hpp:4[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/src/sliding_window_estimator.cpp:1[m[K:
+[01m[K/usr/include/boost/assign/list_of.hpp:378:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define BOOST_ASSIGN_MAX_PARAMS 5
+[01;32m[K ^[m[K

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elliottwhite/turtlebot2_wss/extern/src/pcl-pcl-1.8.0/io/tools/ply/plyheader.cpp
+fstream
+-
+iostream
+-
+string.h
+-
+string
+-
+stdlib.h
+-
+

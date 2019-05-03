@@ -1,0 +1,26 @@
+[36m--[0m No build type specified; defaulting to CMAKE_BUILD_TYPE=Release.
+CMake Warning (dev) at CMakeLists.txt:189 (get_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "yaml-cpp-pm".  Use
+  the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m using built-in yaml-cpp, version 0.3.0
+   -- text-based configuration enabled
+[36m--[0m API Documentation (doxygen): disabled
+CMake Warning (dev) at CMakeLists.txt:398 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "pointmatcher".  Use
+  the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

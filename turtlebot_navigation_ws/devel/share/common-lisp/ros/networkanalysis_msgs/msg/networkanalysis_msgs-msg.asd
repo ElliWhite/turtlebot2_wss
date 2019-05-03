@@ -1,0 +1,31 @@
+
+(cl:in-package :asdf)
+
+(defsystem "networkanalysis_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "linkutilization" :depends-on ("_package_linkutilization"))
+    (:file "_package_linkutilization" :depends-on ("_package"))
+    (:file "networkdelay" :depends-on ("_package_networkdelay"))
+    (:file "_package_networkdelay" :depends-on ("_package"))
+    (:file "networkerrors" :depends-on ("_package_networkerrors"))
+    (:file "_package_networkerrors" :depends-on ("_package"))
+    (:file "pingactionAction" :depends-on ("_package_pingactionAction"))
+    (:file "_package_pingactionAction" :depends-on ("_package"))
+    (:file "pingactionActionFeedback" :depends-on ("_package_pingactionActionFeedback"))
+    (:file "_package_pingactionActionFeedback" :depends-on ("_package"))
+    (:file "pingactionActionGoal" :depends-on ("_package_pingactionActionGoal"))
+    (:file "_package_pingactionActionGoal" :depends-on ("_package"))
+    (:file "pingactionActionResult" :depends-on ("_package_pingactionActionResult"))
+    (:file "_package_pingactionActionResult" :depends-on ("_package"))
+    (:file "pingactionFeedback" :depends-on ("_package_pingactionFeedback"))
+    (:file "_package_pingactionFeedback" :depends-on ("_package"))
+    (:file "pingactionGoal" :depends-on ("_package_pingactionGoal"))
+    (:file "_package_pingactionGoal" :depends-on ("_package"))
+    (:file "pingactionResult" :depends-on ("_package_pingactionResult"))
+    (:file "_package_pingactionResult" :depends-on ("_package"))
+    (:file "wirelesslink" :depends-on ("_package_wirelesslink"))
+    (:file "_package_wirelesslink" :depends-on ("_package"))
+  ))

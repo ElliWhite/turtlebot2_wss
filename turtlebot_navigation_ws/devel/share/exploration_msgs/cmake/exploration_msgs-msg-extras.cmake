@@ -1,0 +1,2 @@
+set(exploration_msgs_MESSAGE_FILES "/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/src/tradr-msgs/exploration_msgs/msg/ExplorationRobotMessage.msg;/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/src/tradr-msgs/exploration_msgs/msg/ExplorationPriorityPoint.msg;/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/src/tradr-msgs/exploration_msgs/msg/ExplorationPriorityActions.msg")
+set(exploration_msgs_SERVICE_FILES "")

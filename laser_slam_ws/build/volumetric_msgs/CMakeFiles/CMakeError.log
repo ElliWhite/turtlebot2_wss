@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcd43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcd43.dir/build.make CMakeFiles/cmTC_dcd43.dir/build
+make[1]: Entering directory '/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcd43.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dcd43.dir/CheckSymbolExists.c.o   -c /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dcd43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcd43.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dcd43.dir/CheckSymbolExists.c.o  -o cmTC_dcd43 -rdynamic 
+CMakeFiles/cmTC_dcd43.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dcd43.dir/build.make:97: recipe for target 'cmTC_dcd43' failed
+make[1]: *** [cmTC_dcd43] Error 1
+make[1]: Leaving directory '/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dcd43/fast' failed
+make: *** [cmTC_dcd43/fast] Error 2
+
+File /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba4be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba4be.dir/build.make CMakeFiles/cmTC_ba4be.dir/build
+make[1]: Entering directory '/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba4be.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ba4be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba4be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba4be.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ba4be.dir/CheckFunctionExists.c.o  -o cmTC_ba4be -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ba4be.dir/build.make:97: recipe for target 'cmTC_ba4be' failed
+make[1]: *** [cmTC_ba4be] Error 1
+make[1]: Leaving directory '/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/volumetric_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ba4be/fast' failed
+make: *** [cmTC_ba4be/fast] Error 2
+
+

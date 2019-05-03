@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: laser_slam
+Description: Description of laser_slam
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -llaser_slam
+Requires: eigen_catkin glog_catkin doxygen_catkin gtsam_catkin libpointmatcher mincurves minkindr roscpp

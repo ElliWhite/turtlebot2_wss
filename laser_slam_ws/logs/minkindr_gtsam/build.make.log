@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target minkindr_gtsam[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/minkindr_gtsam.dir/src/rotation-quaternion-gtsam.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/minkindr_gtsam.dir/src/quat-transformation-gtsam.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/libminkindr_gtsam.so[0m
+[100%] Built target minkindr_gtsam

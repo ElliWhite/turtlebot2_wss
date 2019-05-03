@@ -1,0 +1,2 @@
+set(wireless_network_msgs_MESSAGE_FILES "msg/WiFi_location.msg;msg/networkerrors.msg;msg/networkdelay.msg;msg/linkutilization.msg;msg/wirelesslink.msg;msg/Levels_WiFi_2D.msg")
+set(wireless_network_msgs_SERVICE_FILES "srv/RequestRSS.srv;srv/RequestRSS_PC.srv;srv/RequestRSS_PC_Point.srv;srv/RequestRSS_PC_sim.srv;srv/RequestRSS_Publish_PC.srv;srv/Request_GPR_reset.srv;srv/RequestRSS_Save_PC.srv;srv/RequestRSS_Load_PC.srv")

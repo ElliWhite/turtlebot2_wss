@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel
+
+Name: vrep_ugv_simulation
+Description: Description of vrep_ugv_simulation
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel/lib 
+Requires: 

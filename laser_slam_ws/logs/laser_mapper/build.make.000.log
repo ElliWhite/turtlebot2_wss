@@ -1,0 +1,217 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_LoadTrajectory[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_InitialTransform[0m
+[  0%] Built target _laser_mapper_generate_messages_check_deps_LoadTrajectory
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_SaveTrajectory[0m
+[  0%] Built target _laser_mapper_generate_messages_check_deps_InitialTransform
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_GetLaserTrackSrv[0m
+[  0%] Built target _laser_mapper_generate_messages_check_deps_SaveTrajectory
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target _laser_mapper_generate_messages_check_deps_GetLaserTrackSrv
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_LoadVTKMap[0m
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_SaveMap[0m
+[  0%] Built target _laser_mapper_generate_messages_check_deps_SaveMap
+[  0%] Built target _laser_mapper_generate_messages_check_deps_LoadVTKMap
+[35m[1mScanning dependencies of target _laser_mapper_generate_messages_check_deps_LoopClosure[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target _laser_mapper_generate_messages_check_deps_LoopClosure
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target laser_mapper_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target laser_mapper_generate_messages_py[0m
+[  2%] [34m[1mGenerating C++ code from laser_mapper/LoadVTKMap.srv[0m
+[  4%] [34m[1mGenerating Python code from SRV laser_mapper/LoadVTKMap[0m
+[  7%] [34m[1mGenerating Python code from SRV laser_mapper/LoopClosure[0m
+[  9%] [34m[1mGenerating Python code from SRV laser_mapper/SaveMap[0m
+[ 12%] [34m[1mGenerating C++ code from laser_mapper/LoopClosure.srv[0m
+[ 14%] [34m[1mGenerating Python code from SRV laser_mapper/SaveTrajectory[0m
+[ 17%] [34m[1mGenerating Python code from SRV laser_mapper/GetLaserTrackSrv[0m
+[ 19%] [34m[1mGenerating Python code from SRV laser_mapper/InitialTransform[0m
+[ 21%] [34m[1mGenerating C++ code from laser_mapper/SaveMap.srv[0m
+[ 24%] [34m[1mGenerating Python code from SRV laser_mapper/LoadTrajectory[0m
+[ 26%] [34m[1mGenerating Python srv __init__.py for laser_mapper[0m
+[ 26%] Built target laser_mapper_generate_messages_py
+[35m[1mScanning dependencies of target laser_mapper_generate_messages_nodejs[0m
+[ 29%] [34m[1mGenerating Javascript code from laser_mapper/LoadVTKMap.srv[0m
+[ 31%] [34m[1mGenerating Javascript code from laser_mapper/LoopClosure.srv[0m
+[ 34%] [34m[1mGenerating C++ code from laser_mapper/SaveTrajectory.srv[0m
+[ 36%] [34m[1mGenerating Javascript code from laser_mapper/SaveMap.srv[0m
+[ 39%] [34m[1mGenerating Javascript code from laser_mapper/SaveTrajectory.srv[0m
+[ 41%] [34m[1mGenerating Javascript code from laser_mapper/GetLaserTrackSrv.srv[0m
+[ 43%] [34m[1mGenerating Javascript code from laser_mapper/InitialTransform.srv[0m
+[ 46%] [34m[1mGenerating Javascript code from laser_mapper/LoadTrajectory.srv[0m
+[ 46%] Built target laser_mapper_generate_messages_nodejs
+[35m[1mScanning dependencies of target laser_mapper_generate_messages_lisp[0m
+[ 48%] [34m[1mGenerating Lisp code from laser_mapper/LoadVTKMap.srv[0m
+[ 51%] [34m[1mGenerating C++ code from laser_mapper/GetLaserTrackSrv.srv[0m
+[ 53%] [34m[1mGenerating Lisp code from laser_mapper/LoopClosure.srv[0m
+[ 56%] [34m[1mGenerating Lisp code from laser_mapper/SaveMap.srv[0m
+[ 58%] [34m[1mGenerating Lisp code from laser_mapper/SaveTrajectory.srv[0m
+[ 60%] [34m[1mGenerating Lisp code from laser_mapper/GetLaserTrackSrv.srv[0m
+[ 63%] [34m[1mGenerating Lisp code from laser_mapper/InitialTransform.srv[0m
+[ 65%] [34m[1mGenerating Lisp code from laser_mapper/LoadTrajectory.srv[0m
+[ 65%] Built target laser_mapper_generate_messages_lisp
+[35m[1mScanning dependencies of target laser_mapper_generate_messages_eus[0m
+[ 68%] [34m[1mGenerating EusLisp code from laser_mapper/LoadVTKMap.srv[0m
+[ 70%] [34m[1mGenerating C++ code from laser_mapper/InitialTransform.srv[0m
+[ 73%] [34m[1mGenerating EusLisp code from laser_mapper/LoopClosure.srv[0m
+[ 75%] [34m[1mGenerating EusLisp code from laser_mapper/SaveMap.srv[0m
+[ 78%] [34m[1mGenerating EusLisp code from laser_mapper/SaveTrajectory.srv[0m
+[ 80%] [34m[1mGenerating EusLisp code from laser_mapper/GetLaserTrackSrv.srv[0m
+[ 82%] [34m[1mGenerating EusLisp code from laser_mapper/InitialTransform.srv[0m
+[ 85%] [34m[1mGenerating C++ code from laser_mapper/LoadTrajectory.srv[0m
+[ 87%] [34m[1mGenerating EusLisp code from laser_mapper/LoadTrajectory.srv[0m
+[ 90%] [34m[1mGenerating EusLisp manifest code for laser_mapper[0m
+[ 90%] Built target laser_mapper_generate_messages_cpp
+[ 90%] Built target laser_mapper_generate_messages_eus
+[35m[1mScanning dependencies of target laser_mapper_generate_messages[0m
+[35m[1mScanning dependencies of target laser_mapper[0m
+[ 90%] Built target laser_mapper_generate_messages
+[ 92%] [32mBuilding CXX object CMakeFiles/laser_mapper.dir/src/laser_mapper.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/liblaser_mapper.so[0m
+[ 95%] Built target laser_mapper
+[35m[1mScanning dependencies of target laser_mapper_node[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/laser_mapper_node.dir/src/laser_mapper_node.cpp.o[0m
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/pointmatcher/PointMatcher.h:62:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/common.hpp:13[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/sliding_window_estimator.hpp:6[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam_ros/laser_mapper/include/laser_mapper/laser_mapper.hpp:10[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam_ros/laser_mapper/src/laser_mapper_node.cpp:5[m[K:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/pointmatcher/Parametrizable.h:46:0:[m[K [01;35m[Kwarning: [m[K"BOOST_ASSIGN_MAX_PARAMS" redefined
+ #define BOOST_ASSIGN_MAX_PARAMS 6
+[01;32m[K ^[m[K
+In file included from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h:30:0[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam/include/laser_slam/sliding_window_estimator.hpp:4[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam_ros/laser_mapper/include/laser_mapper/laser_mapper.hpp:10[m[K,
+                 from [01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam_ros/laser_mapper/src/laser_mapper_node.cpp:5[m[K:
+[01m[K/usr/include/boost/assign/list_of.hpp:378:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define BOOST_ASSIGN_MAX_PARAMS 5
+[01;32m[K ^[m[K
+[100%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/laser_mapper/laser_mapper_node[0m
+[100%] Built target laser_mapper_node

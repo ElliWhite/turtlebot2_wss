@@ -1,0 +1,1 @@
+cmd='cd;../glog_src/;&&;./configure;--with-pic;--with-gflags=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel;--prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel'

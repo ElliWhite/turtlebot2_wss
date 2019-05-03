@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: eigen_checks
+Description: Description of eigen_checks
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/eigen_checks/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -leigen_checks
+Requires: 

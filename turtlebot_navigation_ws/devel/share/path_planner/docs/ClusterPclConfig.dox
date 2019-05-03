@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~normal_radius_search" : \b [double] Normal search radius min: 0.001, default: 0.3, max: 1.5
+- \b "~max_superable_height" : \b [double] Maximum superable height min: 0.001, default: 0.2, max: 1.5
+- \b "~normal_clustering_thres" : \b [double] Maximum difference in radiants between normal to enforce belonging in same cluster min: 0.001, default: 0.1, max: 1.5
+- \b "~pcl_cluster_tolerance" : \b [double] Point cloud cluster tolerance min: 0.001, default: 0.3, max: 1.5
+

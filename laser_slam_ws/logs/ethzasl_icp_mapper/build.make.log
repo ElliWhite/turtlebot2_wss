@@ -1,0 +1,136 @@
+[35m[1mScanning dependencies of target _ethzasl_icp_mapper_generate_messages_check_deps_GetBoundedMap[0m
+[  0%] Built target _ethzasl_icp_mapper_generate_messages_check_deps_GetBoundedMap
+[35m[1mScanning dependencies of target _ethzasl_icp_mapper_generate_messages_check_deps_SetMode[0m
+[  0%] Built target _ethzasl_icp_mapper_generate_messages_check_deps_SetMode
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _ethzasl_icp_mapper_generate_messages_check_deps_MatchClouds[0m
+[  0%] Built target _ethzasl_icp_mapper_generate_messages_check_deps_MatchClouds
+[35m[1mScanning dependencies of target _ethzasl_icp_mapper_generate_messages_check_deps_GetMode[0m
+[  0%] Built target _ethzasl_icp_mapper_generate_messages_check_deps_GetMode
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _ethzasl_icp_mapper_generate_messages_check_deps_LoadMap[0m
+[  0%] Built target _ethzasl_icp_mapper_generate_messages_check_deps_LoadMap
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _ethzasl_icp_mapper_generate_messages_check_deps_CorrectPose[0m
+[  0%] Built target _ethzasl_icp_mapper_generate_messages_check_deps_CorrectPose
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_generate_messages_cpp[0m
+[  2%] [34m[1mGenerating C++ code from ethzasl_icp_mapper/CorrectPose.srv[0m
+[  4%] [34m[1mGenerating C++ code from ethzasl_icp_mapper/GetMode.srv[0m
+[  6%] [34m[1mGenerating C++ code from ethzasl_icp_mapper/LoadMap.srv[0m
+[  8%] [34m[1mGenerating C++ code from ethzasl_icp_mapper/SetMode.srv[0m
+[ 10%] [34m[1mGenerating C++ code from ethzasl_icp_mapper/GetBoundedMap.srv[0m
+[ 13%] [34m[1mGenerating C++ code from ethzasl_icp_mapper/MatchClouds.srv[0m
+[ 13%] Built target ethzasl_icp_mapper_generate_messages_cpp
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_generate_messages_py[0m
+[ 15%] [34m[1mGenerating Python code from SRV ethzasl_icp_mapper/CorrectPose[0m
+[ 17%] [34m[1mGenerating Python code from SRV ethzasl_icp_mapper/GetMode[0m
+[ 19%] [34m[1mGenerating Python code from SRV ethzasl_icp_mapper/LoadMap[0m
+[ 21%] [34m[1mGenerating Python code from SRV ethzasl_icp_mapper/SetMode[0m
+[ 23%] [34m[1mGenerating Python code from SRV ethzasl_icp_mapper/GetBoundedMap[0m
+[ 26%] [34m[1mGenerating Python code from SRV ethzasl_icp_mapper/MatchClouds[0m
+[ 28%] [34m[1mGenerating Python srv __init__.py for ethzasl_icp_mapper[0m
+[ 28%] Built target ethzasl_icp_mapper_generate_messages_py
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_generate_messages_lisp[0m
+[ 30%] [34m[1mGenerating Lisp code from ethzasl_icp_mapper/CorrectPose.srv[0m
+[ 32%] [34m[1mGenerating Lisp code from ethzasl_icp_mapper/GetMode.srv[0m
+[ 34%] [34m[1mGenerating Lisp code from ethzasl_icp_mapper/LoadMap.srv[0m
+[ 36%] [34m[1mGenerating Lisp code from ethzasl_icp_mapper/SetMode.srv[0m
+[ 39%] [34m[1mGenerating Lisp code from ethzasl_icp_mapper/GetBoundedMap.srv[0m
+[ 41%] [34m[1mGenerating Lisp code from ethzasl_icp_mapper/MatchClouds.srv[0m
+[ 41%] Built target ethzasl_icp_mapper_generate_messages_lisp
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_generate_messages_eus[0m
+[ 43%] [34m[1mGenerating EusLisp code from ethzasl_icp_mapper/CorrectPose.srv[0m
+[ 45%] [34m[1mGenerating EusLisp code from ethzasl_icp_mapper/GetMode.srv[0m
+[ 47%] [34m[1mGenerating EusLisp code from ethzasl_icp_mapper/LoadMap.srv[0m
+[ 50%] [34m[1mGenerating EusLisp code from ethzasl_icp_mapper/SetMode.srv[0m
+[ 52%] [34m[1mGenerating EusLisp code from ethzasl_icp_mapper/GetBoundedMap.srv[0m
+[ 54%] [34m[1mGenerating EusLisp code from ethzasl_icp_mapper/MatchClouds.srv[0m
+[ 56%] [34m[1mGenerating EusLisp manifest code for ethzasl_icp_mapper[0m
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_generate_messages_nodejs[0m
+[ 58%] [34m[1mGenerating Javascript code from ethzasl_icp_mapper/CorrectPose.srv[0m
+[ 60%] [34m[1mGenerating Javascript code from ethzasl_icp_mapper/GetMode.srv[0m
+[ 63%] [34m[1mGenerating Javascript code from ethzasl_icp_mapper/LoadMap.srv[0m
+[ 65%] [34m[1mGenerating Javascript code from ethzasl_icp_mapper/SetMode.srv[0m
+[ 67%] [34m[1mGenerating Javascript code from ethzasl_icp_mapper/GetBoundedMap.srv[0m
+[ 69%] [34m[1mGenerating Javascript code from ethzasl_icp_mapper/MatchClouds.srv[0m
+[ 69%] Built target ethzasl_icp_mapper_generate_messages_nodejs
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_gencpp[0m
+[ 69%] Built target ethzasl_icp_mapper_gencpp
+[35m[1mScanning dependencies of target dynamic_trails[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/dynamic_trails.dir/src/dynamic_trails.cpp.o[0m
+[35m[1mScanning dependencies of target dynamic_mapper[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/dynamic_mapper.dir/src/dynamic_mapper.cpp.o[0m
+[ 73%] Built target ethzasl_icp_mapper_generate_messages_eus
+[35m[1mScanning dependencies of target map_maintainer[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/map_maintainer.dir/src/map_maintainer.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/dynamic_trails[0m
+[ 78%] Built target dynamic_trails
+[35m[1mScanning dependencies of target occupancy_grid_builder[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/occupancy_grid_builder.dir/src/occupancy_grid_builder.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/occupancy_grid_builder[0m
+[ 82%] Built target occupancy_grid_builder
+[35m[1mScanning dependencies of target mapper[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/mapper.dir/src/mapper.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/map_maintainer[0m
+[ 86%] Built target map_maintainer
+[35m[1mScanning dependencies of target ethzasl_icp_mapper_generate_messages[0m
+[ 86%] Built target ethzasl_icp_mapper_generate_messages
+[35m[1mScanning dependencies of target interact_mapper[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/interact_mapper.dir/src/interact_mapper.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/dynamic_mapper[0m
+[ 91%] Built target dynamic_mapper
+[35m[1mScanning dependencies of target matcher_service[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/matcher_service.dir/src/matcher_service.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/matcher_service[0m
+[ 95%] Built target matcher_service
+[ 97%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/interact_mapper[0m
+[ 97%] Built target interact_mapper
+[100%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/ethzasl_icp_mapper/mapper[0m
+[100%] Built target mapper

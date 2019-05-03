@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: ethzasl_icp_mapper_experiments
+Description: Description of ethzasl_icp_mapper_experiments
+Version: 0.9.6
+Cflags: 
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib 
+Requires: roscpp rospy rosbag std_msgs geometry_msgs sensor_msgs nav_msgs tf tf_conversions libpointmatcher_ros libpointmatcher

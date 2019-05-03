@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="path_planner" pkg="path_planner" type="path_planner">
+  <param name="laser_frame" type="str" value="/laser" />
+  <param name="smoothing" type="double" value="1.0" />
+  <param name="radius" type="double" value="0.2" />
+  <param name="num_threads" type="int" value="4" />
+  <param name="flatness_curvature_threshold" type="double" value="0.2" />
+  <param name="kernel_type" type="int" value="0" />
+</node>
+\endverbatim
+

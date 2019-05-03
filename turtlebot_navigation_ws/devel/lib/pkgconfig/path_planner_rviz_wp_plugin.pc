@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel
+
+Name: path_planner_rviz_wp_plugin
+Description: Description of path_planner_rviz_wp_plugin
+Version: 0.0.0
+Cflags: -I/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/src/tradr-loc-map-nav/path_planner_rviz_wp_plugin/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel/lib -lpath_planner_rviz_wp_plugin
+Requires: class_loader geometry_msgs nav_msgs std_msgs message_filters trajectory_control_msgs patrolling_build_graph_msgs path_planner rviz tf dynamic_reconfigure exploration_msgs wireless_network_msgs

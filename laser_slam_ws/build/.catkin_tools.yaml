@@ -1,0 +1,6 @@
+devel_space: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+install: false
+install_space: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/install
+profile: default
+source_space: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/src
+workspace: /home/elliottwhite/turtlebot2_wss/laser_slam_ws

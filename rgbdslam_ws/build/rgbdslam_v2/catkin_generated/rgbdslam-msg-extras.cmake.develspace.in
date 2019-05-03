@@ -1,0 +1,2 @@
+set(rgbdslam_MESSAGE_FILES "")
+set(rgbdslam_SERVICE_FILES "/home/elliottwhite/turtlebot2_wss/rgbdslam_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui.srv;/home/elliottwhite/turtlebot2_wss/rgbdslam_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui_b.srv;/home/elliottwhite/turtlebot2_wss/rgbdslam_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui_f.srv;/home/elliottwhite/turtlebot2_wss/rgbdslam_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui_s.srv")

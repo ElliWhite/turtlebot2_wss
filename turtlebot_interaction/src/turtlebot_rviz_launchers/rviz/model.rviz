@@ -5,12 +5,10 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /RobotModel1
         - /TF1/Frames1
-        - /KinectDepthImage1
-        - /KinectRGBImage1
-        - /ColouredPointCloud1/Status1
       Splitter Ratio: 0.442080379
-    Tree Height: 821
+    Tree Height: 612
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -222,8 +220,8 @@ Visualization Manager:
           Show Trail: false
           Value: true
       Name: RobotModel
-      Robot Description: robot_description
-      TF Prefix: ""
+      Robot Description: robot_description_turtlebot1
+      TF Prefix: turtlebot1
       Update Interval: 0
       Value: true
       Visual Enabled: true
@@ -243,7 +241,7 @@ Visualization Manager:
       Value: false
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /depth/image_rect
+      Image Topic: /vrep/turtlebot1/depth/image_rect
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -255,7 +253,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /rgb/image_rect_color
+      Image Topic: /vrep/turtlebot1/rgb/image_rect_color
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -283,7 +281,7 @@ Visualization Manager:
       Max Intensity: 4096
       Min Color: 0; 0; 0
       Min Intensity: 0
-      Name: ColouredPointCloud
+      Name: KinectPCDFilteredColoured
       Position Transformer: XYZ
       Queue Size: 10
       Selectable: true
@@ -307,7 +305,67 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: Intensity
       Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 30.5872898
+      Min Color: 0; 0; 0
+      Min Intensity: 3.51160216
+      Name: KinectPCDUnfiltered
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.00999999978
+      Style: Flat Squares
+      Topic: /vrep/turtlebot1/depth/pcd
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
       Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: KinectPCDFiltered
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.00999999978
+      Style: Flat Squares
+      Topic: /depth/pcd_rect
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: false
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Max Intensity: 4096
@@ -324,6 +382,144 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 1.91250002
+        Min Value: -0.0375000015
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: LocalMapNormals
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.0299999993
+      Style: Flat Squares
+      Topic: /local_map_normals
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Arrow Length: 0.300000012
+      Axes Length: 0.300000012
+      Axes Radius: 0.00999999978
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: false
+      Head Length: 0.0700000003
+      Head Radius: 0.0299999993
+      Name: PoseArray
+      Shaft Length: 0.230000004
+      Shaft Radius: 0.00999999978
+      Shape: Arrow (Flat)
+      Topic: /normal_markers
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 0; 0
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: Walls
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.0299999993
+      Style: Spheres
+      Topic: /clustered_pcl/wall
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -0.0375000015
+        Min Value: -0.0375000015
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: true
+      Max Color: 255; 255; 255
+      Max Intensity: 27.6199532
+      Min Color: 0; 0; 0
+      Min Intensity: 3.51159716
+      Name: Traversability
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.075000003
+      Style: Boxes
+      Topic: /trav/traversability
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/InteractiveMarkers
+      Enable Transparency: true
+      Enabled: true
+      Name: InteractiveMarkers
+      Show Axes: false
+      Show Descriptions: true
+      Show Visual Aids: false
+      Update Topic: /marker_controller/update
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot_path
+      Unreliable: false
       Value: true
   Enabled: true
   Global Options:
@@ -345,37 +541,37 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.33949518
+      Distance: 6.96093798
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.627356589
-        Y: 0.0625265911
-        Z: 0.0769427568
+        X: 1.93216932
+        Y: -0.206917435
+        Z: 0.212068215
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.444797188
+      Pitch: 0.419796795
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.77724278
+      Yaw: 4.84406376
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 1015
+  Height: 1014
   Hide Left Dock: false
   Hide Right Dock: false
   KinectDepthImage:
     collapsed: false
   KinectRGBImage:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000001c2000003c1fc020000000cfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed0000022f00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000001f000003c1000000d400fffffffb0000000c00430061006d0065007200610100000349000000160000000000000000fb0000001c004b0069006e0065006300740052004700420049006d006100670065010000035a000001090000000000000000fb0000001c004b0069006e0065006300740052004700420049006d0061006700650300000bd00000050e0000016a000000dafb0000000c00430061006d0065007200610100000554000000160000000000000000fb00000024004b0069006e00650063007400520047004200540065007300740049006d0061006700650200000b6a000000e80000016a000000e8fb00000028004b0069006e0065006300740044006500700074006800540065007300740049006d00610067006502000009dd000001210000016a00000096fb0000001c004b0069006e0065006300740052004700420049006d0061006700650100000546000000df000000000000000000000001000001ea000003c1fc0200000006fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001c004b0069006e0065006300740052004700420049006d006100670065010000001f000001dd0000001600fffffffc000001ff000001e10000001600fffffffa000000000100000002fb00000020004b0069006e006500630074004400650070007400680049006d0061006700650100000000ffffffff0000007900fffffffb0000000a005600690065007700730000000596000001ea0000010900fffffffb0000001c004b0069006e0065006300740052004700420049006d0061006700650100000202000001de0000000000000000fb0000000a0049006d006100670065010000024d000001930000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a0000001ee00fffffffb0000000800540069006d00650100000000000004500000000000000000000003ce000003c100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000040000000000000161000003c0fc020000000afb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed0000022f00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000001f000002f0000000d400fffffffb0000000c00430061006d0065007200610100000349000000160000000000000000fb0000000c00430061006d0065007200610100000554000000160000000000000000fb00000024004b0069006e00650063007400520047004200540065007300740049006d0061006700650200000b6a000000e80000016a000000e8fb00000028004b0069006e0065006300740044006500700074006800540065007300740049006d00610067006502000009dd000001210000016a00000096fb00000020004b0069006e006500630074004400650070007400680049006d0061006700650100000312000000cd0000001600ffffff00000001000000da000003c0fc0200000009fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001c004b0069006e0065006300740052004700420049006d006100670065010000001f000001e30000000000000000fb0000001c004b0069006e0065006300740052004700420049006d006100670065010000001f000003c00000001600fffffffb0000001c004b0069006e0065006300740052004700420049006d006100670065010000001f0000014b0000000000000000fb0000001c004b0069006e0065006300740052004700420049006d006100670065010000001f000001e30000000000000000fc000003520000008d0000000000fffffffa000000000100000002fb00000020004b0069006e006500630074004400650070007400680049006d0061006700650100000000ffffffff0000000000000000fb0000000a005600690065007700730000000596000001ea0000010900fffffffb0000001c004b0069006e0065006300740052004700420049006d0061006700650100000202000001de0000000000000000fb0000000a0049006d006100670065010000024d000001930000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a0000001ee00fffffffb0000000800540069006d006501000000000000045000000000000000000000053f000003c000000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:

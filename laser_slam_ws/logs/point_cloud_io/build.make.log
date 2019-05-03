@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target write[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/write.dir/src/write_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/write.dir/src/Write.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/point_cloud_io/write[0m
+[ 50%] Built target write
+[35m[1mScanning dependencies of target read[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/read.dir/src/read_node.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/read.dir/src/Read.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib/point_cloud_io/read[0m
+[100%] Built target read

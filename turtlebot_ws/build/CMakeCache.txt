@@ -188,7 +188,10 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a program.
-DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
+
+//Doxygen found
+DOXYGEN_FOUND:BOOL=TRUE
 
 //Path to a program.
 EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
@@ -383,6 +386,9 @@ message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
 
+//The directory containing a CMake configuration file for nifti_robot_driver_msgs.
+nifti_robot_driver_msgs_DIR:PATH=/home/elliottwhite/turtlebot2_wss/turtlebot_navigation_ws/devel/share/nifti_robot_driver_msgs/cmake
+
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
 
@@ -493,6 +499,12 @@ turtlebot_description_BINARY_DIR:STATIC=/home/elliottwhite/turtlebot2_wss/turtle
 
 //Value Computed by CMake
 turtlebot_description_SOURCE_DIR:STATIC=/home/elliottwhite/turtlebot2_wss/turtlebot_ws/src/turtlebot_description
+
+//Value Computed by CMake
+turtlebot_launchers_BINARY_DIR:STATIC=/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/turtlebot_launchers
+
+//Value Computed by CMake
+turtlebot_launchers_SOURCE_DIR:STATIC=/home/elliottwhite/turtlebot2_wss/turtlebot_ws/src/turtlebot_launchers
 
 //Value Computed by CMake
 turtlebot_teleop_keyboard_BINARY_DIR:STATIC=/home/elliottwhite/turtlebot2_wss/turtlebot_ws/build/turtlebot_teleop_keyboard
@@ -614,7 +626,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: minkindr_gtsam
+Description: Description of minkindr_gtsam
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/minkindr_gtsam/minkindr_gtsam/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -lminkindr_gtsam
+Requires: eigen_catkin gtsam_catkin minkindr glog_catkin gflags_catkin eigen_checks

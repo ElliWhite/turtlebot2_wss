@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/install
+
+Name: minkindr
+Description: Description of minkindr
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/install/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/install/lib 
+Requires: 

@@ -1,0 +1,429 @@
+[35m[1mScanning dependencies of target CppUnitLite[0m
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/Test.cpp.o[0m
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/TestResult.cpp.o[0m
+[  2%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/TestRegistry.cpp.o[0m
+[  2%] [32m[1mLinking CXX static library libCppUnitLite.a[0m
+[  2%] Built target CppUnitLite
+[35m[1mScanning dependencies of target wrap_lib[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/ReturnType.cpp.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Constructor.cpp.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/FileWriter.cpp.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Method.cpp.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/TemplateInstantiationTypedef.cpp.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/StaticMethod.cpp.o[0m
+[35m[1mScanning dependencies of target metis[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/sort.c.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Function.cpp.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/blas.c.o[0m
+[  5%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Deconstructor.cpp.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/itemsets.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/csr.c.o[0m
+[  5%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/tokenizer.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/evaluate.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/random.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/getopt.c.o[0m
+[ 10%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Class.cpp.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/seq.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/htable.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/b64.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/rw.c.o[0m
+[ 10%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/timers.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/memory.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/fkvkselect.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/io.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/graph.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/pqueue.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/string.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/fs.c.o[0m
+[ 12%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/gkregex.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/error.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/mcore.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/pdb.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/util.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/__/GKlib/omp.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/gklib.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/auxapi.c.o[0m
+[ 15%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/sfm.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/pmetis.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/options.c.o[0m
+[ 17%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/MethodBase.cpp.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/stat.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mmd.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/checkgraph.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/meshpart.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/contig.c.o[0m
+[ 17%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/kmetis.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/parmetis.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mincover.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/wspace.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/fortran.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/minconn.c.o[0m
+[ 20%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Argument.cpp.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/kwayfm.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/initpart.c.o[0m
+[ 20%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/timing.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/frename.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/debug.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mcutil.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/coarsen.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/fm.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/compress.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/balance.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/ometis.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/graph.c.o[0m
+[ 25%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/Module.cpp.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/bucketsort.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/kwayrefine.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/refine.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/separator.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/mesh.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/util.c.o[0m
+[ 25%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis.dir/srefine.c.o[0m
+[ 28%] [32m[1mLinking C static library libmetis.a[0m
+[ 28%] Built target metis
+[35m[1mScanning dependencies of target gtsam[0m
+[ 28%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd.c.o[0m
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:[m[K In function ‘[01m[Kccolamd2[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam/3rdparty/CCOLAMD/Source/ccolamd.c:1595:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcs[m[K’ set but not used [-Wunused-but-set-variable]
+     Int cs ;
+[01;32m[K         ^[m[K
+[ 30%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd_global.c.o[0m
+[ 30%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/UFconfig/UFconfig.c.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/LieMatrix.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/timing.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/Matrix.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/cholesky.cpp.o[0m
+[ 30%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/TypeAttributesTable.cpp.o[0m
+[ 30%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/ReturnValue.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/LieScalar.cpp.o[0m
+[ 30%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/utilities.cpp.o[0m
+[ 30%] [32mBuilding CXX object wrap/CMakeFiles/wrap_lib.dir/GlobalFunction.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/SymmetricBlockMatrix.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libwrap_lib.a[0m
+[ 33%] Built target wrap_lib
+[35m[1mScanning dependencies of target wrap[0m
+[ 33%] [32mBuilding CXX object wrap/CMakeFiles/wrap.dir/wrap.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/debug.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/Vector.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/VerticalBlockMatrix.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable wrap[0m
+[ 35%] Built target wrap
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/DSFVector.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/LieVector.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o[0m
+[ 43%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o[0m
+[ 46%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o[0m
+[ 48%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o[0m
+[ 51%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o[0m
+[ 53%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o[0m
+[ 56%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o[0m
+[ 58%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libgtsam.so[0m
+[ 66%] Built target gtsam
+[35m[1mScanning dependencies of target StereoVOExample[0m
+[35m[1mScanning dependencies of target StereoVOExample_large[0m
+[35m[1mScanning dependencies of target Pose2SLAMExampleExpressions[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/StereoVOExample.dir/StereoVOExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/StereoVOExample_large.dir/StereoVOExample_large.cpp.o[0m
+[ 69%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExampleExpressions.dir/Pose2SLAMExampleExpressions.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable StereoVOExample[0m
+[ 69%] Built target StereoVOExample
+[35m[1mScanning dependencies of target SFMExample[0m
+[ 69%] [32mBuilding CXX object examples/CMakeFiles/SFMExample.dir/SFMExample.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable StereoVOExample_large[0m
+[ 69%] Built target StereoVOExample_large
+[35m[1mScanning dependencies of target VisualISAM2Example[0m
+[ 69%] [32mBuilding CXX object examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable SFMExample[0m
+[ 69%] Built target SFMExample
+[35m[1mScanning dependencies of target SFMExample_SmartFactorPCG[0m
+[ 71%] [32m[1mLinking CXX executable VisualISAM2Example[0m
+[ 71%] Built target VisualISAM2Example
+[35m[1mScanning dependencies of target Pose2SLAMwSPCG[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactorPCG.dir/SFMExample_SmartFactorPCG.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMwSPCG.dir/Pose2SLAMwSPCG.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Pose2SLAMExampleExpressions[0m
+[ 71%] Built target Pose2SLAMExampleExpressions
+[35m[1mScanning dependencies of target OdometryExample[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/OdometryExample.dir/OdometryExample.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Pose2SLAMwSPCG[0m
+[ 71%] Built target Pose2SLAMwSPCG
+[35m[1mScanning dependencies of target Pose2SLAMExample_g2o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_g2o.dir/Pose2SLAMExample_g2o.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable OdometryExample[0m
+[ 71%] [32m[1mLinking CXX executable Pose2SLAMExample_g2o[0m
+[ 71%] Built target Pose2SLAMExample_g2o
+[ 71%] Built target OdometryExample
+[35m[1mScanning dependencies of target Pose3SLAMExample_initializePose3Gradient[0m
+[35m[1mScanning dependencies of target SimpleRotation[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Gradient.dir/Pose3SLAMExample_initializePose3Gradient.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable SFMExample_SmartFactorPCG[0m
+[ 71%] Built target SFMExample_SmartFactorPCG
+[35m[1mScanning dependencies of target SFMExample_SmartFactor[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactor.dir/SFMExample_SmartFactor.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable SimpleRotation[0m
+[ 71%] Built target SimpleRotation
+[35m[1mScanning dependencies of target TimeTBB[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/TimeTBB.dir/TimeTBB.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Pose3SLAMExample_initializePose3Gradient[0m
+[ 71%] Built target Pose3SLAMExample_initializePose3Gradient
+[35m[1mScanning dependencies of target SFMExampleExpressions_bal[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable TimeTBB[0m
+[ 71%] Built target TimeTBB
+[35m[1mScanning dependencies of target Pose2SLAMExample_graph[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graph.dir/Pose2SLAMExample_graph.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Pose2SLAMExample_graph[0m
+[ 71%] Built target Pose2SLAMExample_graph
+[35m[1mScanning dependencies of target Pose2SLAMExample_lago[0m
+[ 71%] [32m[1mLinking CXX executable SFMExampleExpressions_bal[0m
+[ 71%] Built target SFMExampleExpressions_bal
+[35m[1mScanning dependencies of target Pose3SLAMExample_initializePose3Chordal[0m
+[ 74%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Chordal.dir/Pose3SLAMExample_initializePose3Chordal.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_lago.dir/Pose2SLAMExample_lago.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable SFMExample_SmartFactor[0m
+[ 76%] Built target SFMExample_SmartFactor
+[35m[1mScanning dependencies of target VisualISAMExample[0m
+[ 76%] [32mBuilding CXX object examples/CMakeFiles/VisualISAMExample.dir/VisualISAMExample.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable Pose2SLAMExample_lago[0m
+[ 76%] Built target Pose2SLAMExample_lago
+[ 76%] [32m[1mLinking CXX executable VisualISAMExample[0m
+[ 76%] Built target VisualISAMExample
+[35m[1mScanning dependencies of target SFMExample_bal[0m
+[35m[1mScanning dependencies of target SFMExampleExpressions[0m
+[ 76%] [32m[1mLinking CXX executable Pose3SLAMExample_initializePose3Chordal[0m
+[ 76%] Built target Pose3SLAMExample_initializePose3Chordal
+[35m[1mScanning dependencies of target CreateSFMExampleData[0m
+[ 79%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal.dir/SFMExample_bal.cpp.o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable CreateSFMExampleData[0m
+[ 82%] Built target CreateSFMExampleData
+[35m[1mScanning dependencies of target Pose2SLAMExample[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample.dir/Pose2SLAMExample.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable SFMExample_bal[0m
+[ 82%] Built target SFMExample_bal
+[35m[1mScanning dependencies of target easyPoint2KalmanFilter[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/easyPoint2KalmanFilter.dir/easyPoint2KalmanFilter.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable SFMExampleExpressions[0m
+[ 82%] Built target SFMExampleExpressions
+[35m[1mScanning dependencies of target RangeISAMExample_plaza2[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/RangeISAMExample_plaza2.dir/RangeISAMExample_plaza2.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable Pose2SLAMExample[0m
+[ 82%] Built target Pose2SLAMExample
+[35m[1mScanning dependencies of target Pose3SLAMExample_g2o[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_g2o.dir/Pose3SLAMExample_g2o.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable easyPoint2KalmanFilter[0m
+[ 82%] Built target easyPoint2KalmanFilter
+[35m[1mScanning dependencies of target Pose2SLAMExample_graphviz[0m
+[ 82%] [32m[1mLinking CXX executable RangeISAMExample_plaza2[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.o[0m
+[ 82%] Built target RangeISAMExample_plaza2
+[35m[1mScanning dependencies of target Pose3SLAMExample_changeKeys[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_changeKeys.dir/Pose3SLAMExample_changeKeys.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable Pose3SLAMExample_g2o[0m
+[ 82%] Built target Pose3SLAMExample_g2o
+[35m[1mScanning dependencies of target PlanarSLAMExample[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable Pose2SLAMExample_graphviz[0m
+[ 82%] [32m[1mLinking CXX executable Pose3SLAMExample_changeKeys[0m
+[ 82%] [32m[1mLinking CXX executable PlanarSLAMExample[0m
+[ 82%] Built target PlanarSLAMExample
+[ 82%] Built target Pose3SLAMExample_changeKeys
+[ 82%] Built target Pose2SLAMExample_graphviz
+[35m[1mScanning dependencies of target SolverComparer[0m
+[35m[1mScanning dependencies of target LocalizationExample[0m
+[35m[1mScanning dependencies of target METISOrderingExample[0m
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/LocalizationExample.dir/LocalizationExample.cpp.o[0m
+[ 84%] [32mBuilding CXX object examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o[0m
+[ 87%] [32mBuilding CXX object examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable LocalizationExample[0m
+[ 87%] [32m[1mLinking CXX executable SolverComparer[0m
+[ 87%] [32m[1mLinking CXX executable METISOrderingExample[0m
+[ 87%] Built target LocalizationExample
+[ 87%] Built target METISOrderingExample
+[35m[1mScanning dependencies of target SelfCalibrationExample[0m
+[35m[1mScanning dependencies of target CameraResectioning[0m
+[ 87%] [32mBuilding CXX object examples/CMakeFiles/CameraResectioning.dir/CameraResectioning.cpp.o[0m
+[ 87%] Built target SolverComparer
+[ 87%] [32mBuilding CXX object examples/CMakeFiles/SelfCalibrationExample.dir/SelfCalibrationExample.cpp.o[0m
+[35m[1mScanning dependencies of target SFMExample_bal_COLAMD_METIS[0m
+[ 87%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable CameraResectioning[0m
+[ 87%] Built target CameraResectioning
+[35m[1mScanning dependencies of target gtsam_unstable[0m
+[ 87%] [32m[1mLinking CXX executable SelfCalibrationExample[0m
+[ 87%] Built target SelfCalibrationExample
+[ 87%] [32m[1mLinking CXX executable SFMExample_bal_COLAMD_METIS[0m
+[ 87%] Built target SFMExample_bal_COLAMD_METIS
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/base/Dummy.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Similarity3.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimPolygon2D.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimWall2D.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o[0m
+[ 89%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o[0m
+[ 94%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o[0m
+[ 97%] [32m[1mLinking CXX shared library libgtsam_unstable.so[0m
+[ 97%] Built target gtsam_unstable
+[35m[1mScanning dependencies of target schedulingQuals12[0m
+[35m[1mScanning dependencies of target schedulingQuals13[0m
+[35m[1mScanning dependencies of target schedulingExample[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals12.dir/schedulingQuals12.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingExample.dir/schedulingExample.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable schedulingQuals13[0m
+[ 97%] [32m[1mLinking CXX executable schedulingQuals12[0m
+[ 97%] [32m[1mLinking CXX executable schedulingExample[0m
+[ 97%] Built target schedulingQuals13
+[ 97%] Built target schedulingQuals12
+[ 97%] Built target schedulingExample
+[35m[1mScanning dependencies of target ConcurrentFilteringAndSmoothingExample[0m
+[35m[1mScanning dependencies of target SmartRangeExample_plaza2[0m
+[35m[1mScanning dependencies of target ConcurrentCalibration[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable SmartRangeExample_plaza2[0m
+[ 97%] [32m[1mLinking CXX executable ConcurrentFilteringAndSmoothingExample[0m
+[ 97%] Built target ConcurrentFilteringAndSmoothingExample
+[ 97%] Built target SmartRangeExample_plaza2
+[35m[1mScanning dependencies of target SmartStereoProjectionFactorExample[0m
+[35m[1mScanning dependencies of target SmartRangeExample_plaza1[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza1.dir/SmartRangeExample_plaza1.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartStereoProjectionFactorExample.dir/SmartStereoProjectionFactorExample.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable ConcurrentCalibration[0m
+[ 97%] Built target ConcurrentCalibration
+[35m[1mScanning dependencies of target FixedLagSmootherExample[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/FixedLagSmootherExample.dir/FixedLagSmootherExample.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable SmartRangeExample_plaza1[0m
+[ 97%] Built target SmartRangeExample_plaza1
+[35m[1mScanning dependencies of target SmartProjectionFactorExample[0m
+[100%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartProjectionFactorExample.dir/SmartProjectionFactorExample.cpp.o[0m
+[100%] [32m[1mLinking CXX executable FixedLagSmootherExample[0m
+[100%] Built target FixedLagSmootherExample
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:76:29:[m[K [01;35m[Kwarning: [m[Kname lookup of ‘[01m[Ki[m[K’ changed
+     initial_estimate.insert(i, Pose3(m));
+[01;32m[K                             ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:70:7:[m[K [01;35m[Kwarning: [m[K  matches this ‘[01m[Ki[m[K’ under ISO standard rules
+   int i;
+[01;32m[K       ^[m[K
+[01m[K/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/GTSAM/gtsam_unstable/examples/SmartProjectionFactorExample.cpp:74:14:[m[K [01;35m[Kwarning: [m[K  matches this ‘[01m[Ki[m[K’ under old rules
+     for (int i = 0; i < 16; i++)
+[01;32m[K              ^[m[K
+[100%] [32m[1mLinking CXX executable SmartStereoProjectionFactorExample[0m
+[100%] Built target SmartStereoProjectionFactorExample
+[100%] [32m[1mLinking CXX executable SmartProjectionFactorExample[0m
+[100%] Built target SmartProjectionFactorExample

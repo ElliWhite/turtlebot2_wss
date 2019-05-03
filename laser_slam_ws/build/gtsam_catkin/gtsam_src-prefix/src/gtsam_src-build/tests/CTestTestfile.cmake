@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src/tests
+# Build directory: /home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testPCGSolver "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testPCGSolver")
+add_test(testGaussianJunctionTreeB "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGaussianJunctionTreeB")
+add_test(testGaussianFactorGraphB "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGaussianFactorGraphB")
+add_test(testSimulated2D "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testSimulated2D")
+add_test(testGaussianISAM2 "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGaussianISAM2")
+add_test(testGeneralSFMFactorB "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGeneralSFMFactorB")
+add_test(testSerializationSLAM "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testSerializationSLAM")
+add_test(testDoglegOptimizer "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testDoglegOptimizer")
+add_test(testRot3Optimization "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testRot3Optimization")
+add_test(testExpressionFactor "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testExpressionFactor")
+add_test(testManifold "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testManifold")
+add_test(testGraph "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGraph")
+add_test(testSimulated3D "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testSimulated3D")
+add_test(testGaussianISAM "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGaussianISAM")
+add_test(testNonlinearOptimizer "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testNonlinearOptimizer")
+add_test(testSimulated2DOriented "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testSimulated2DOriented")
+add_test(testLie "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testLie")
+add_test(testPreconditioner "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testPreconditioner")
+add_test(testNonlinearISAM "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testNonlinearISAM")
+add_test(testSubgraphPreconditioner "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testSubgraphPreconditioner")
+add_test(testGaussianBayesTreeB "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGaussianBayesTreeB")
+add_test(testNonlinearFactor "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testNonlinearFactor")
+add_test(testNonlinearEquality "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testNonlinearEquality")
+add_test(testIterative "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testIterative")
+add_test(testBoundingConstraint "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testBoundingConstraint")
+add_test(testGradientDescentOptimizer "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testGradientDescentOptimizer")
+add_test(testSubgraphSolver "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testSubgraphSolver")
+add_test(testNonlinearFactorGraph "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testNonlinearFactorGraph")
+add_test(testExtendedKalmanFilter "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testExtendedKalmanFilter")
+add_test(testMarginals "/home/elliottwhite/turtlebot2_wss/laser_slam_ws/build/gtsam_catkin/gtsam_src-prefix/src/gtsam_src-build/tests/testMarginals")

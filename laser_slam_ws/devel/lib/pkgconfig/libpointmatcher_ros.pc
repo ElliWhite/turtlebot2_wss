@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: libpointmatcher_ros
+Description: Description of libpointmatcher_ros
+Version: 0.9.6
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/libpointmatcher_ros/libpointmatcher_ros/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -lpointmatcher_ros
+Requires: roscpp sensor_msgs nav_msgs tf tf_conversions eigen_conversions libpointmatcher

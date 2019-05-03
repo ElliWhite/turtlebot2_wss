@@ -1,0 +1,6 @@
+set(doxygen_catkin_SETUP_PY_VERSION "0.0.1")
+set(doxygen_catkin_SETUP_PY_SCRIPTS "bin/doxygen-catkin-filegen")
+set(doxygen_catkin_SETUP_PY_PACKAGES "doxygen_catkin")
+set(doxygen_catkin_SETUP_PY_PACKAGE_DIRS "bin/doxygen_catkin")
+set(doxygen_catkin_SETUP_PY_MODULES "")
+set(doxygen_catkin_SETUP_PY_MODULE_DIRS "")

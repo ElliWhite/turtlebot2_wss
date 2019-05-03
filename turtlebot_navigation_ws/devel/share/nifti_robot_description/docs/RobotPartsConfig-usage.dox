@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="nifti_robot_description" pkg="nifti_robot_description" type="nifti_robot_description">
+  <param name="robot_description" type="str" value="" />
+</node>
+\endverbatim
+

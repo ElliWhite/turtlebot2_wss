@@ -1,0 +1,2 @@
+set(trajectory_control_msgs_MESSAGE_FILES "msg/PlanningFeedback.msg;msg/PlanningTask.msg;msg/PlanningGlobalPath.msg;msg/PlanningStatus.msg;msg/MultiRobotPose.msg;msg/MultiRobotPath.msg;msg/TrajectoryControlAction.msg;msg/TrajectoryControlActionGoal.msg;msg/TrajectoryControlActionResult.msg;msg/TrajectoryControlActionFeedback.msg;msg/TrajectoryControlGoal.msg;msg/TrajectoryControlResult.msg;msg/TrajectoryControlFeedback.msg")
+set(trajectory_control_msgs_SERVICE_FILES "srv/PathPlanning.srv")

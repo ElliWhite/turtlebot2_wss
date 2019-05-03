@@ -1,0 +1,8 @@
+prefix=/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel
+
+Name: laser_mapper_tools
+Description: Description of laser_mapper_tools
+Version: 0.0.1
+Cflags: -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/include -I/home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/tradr-laser-slam/laser_slam_ros/laser_mapper_tools/include
+Libs: -L/home/elliottwhite/turtlebot2_wss/laser_slam_ws/devel/lib -llaser_mapper_tools
+Requires: geometry_msgs glog_catkin laser_mapper libpointmatcher octomap_world volumetric_msgs

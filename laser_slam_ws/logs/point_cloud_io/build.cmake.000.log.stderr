@@ -1,0 +1,20 @@
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/point_cloud_io/CMakeLists.txt:52 (add_executable):
+  Cannot generate a safe runtime search path for target write because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpython2.7.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/elliottwhite/turtlebot2_wss/laser_slam_ws/src/point_cloud_io/CMakeLists.txt:47 (add_executable):
+  Cannot generate a safe runtime search path for target read because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpython2.7.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+

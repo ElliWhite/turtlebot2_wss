@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/elliottwhite/turtlebot2_wss/extern/src/pcl-pcl-1.8.0
+# Build directory: /home/elliottwhite/turtlebot2_wss/extern/src/pcl-pcl-1.8.0/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(common)
+subdirs(octree)
+subdirs(io)
+subdirs(kdtree)
+subdirs(search)
+subdirs(sample_consensus)
+subdirs(filters)
+subdirs(2d)
+subdirs(features)
+subdirs(geometry)
+subdirs(keypoints)
+subdirs(surface)
+subdirs(registration)
+subdirs(ml)
+subdirs(segmentation)
+subdirs(recognition)
+subdirs(visualization)
+subdirs(people)
+subdirs(outofcore)
+subdirs(test)
+subdirs(tracking)
+subdirs(stereo)
+subdirs(apps)
+subdirs(cuda)
+subdirs(gpu)
+subdirs(examples)
+subdirs(simulation)
+subdirs(tools)
+subdirs(doc)
